@@ -1,0 +1,2346 @@
+<Cursor>
+	<texture name="sword" file="../images/kursory/miecz1.png"/>
+	<texture name="brokenArrow" file="../images/kursory/strzala2.png"/>
+	<texture name="straightArrow" file="../images/kursory/strzala1.png"/>
+	<texture name="outOfRange" file="../images/kursory/zakaz.png"/>
+	<texture name="walk" file="../images/kursory/chodzenie.png"/>
+	<texture name="fly" file="../images/kursory/latanie.png"/>
+	<texture name="info" file="../images/kursory/pytajnik.png"/>
+	<texture name="classic" file="../images/kursory/kursor.png"/>
+</Cursor>
+<MenuScreen sound="MAINMENU">
+	<texture name="MSbackground" file="../images/menu1.png"/>
+	<texture name="buttonNewGame1" file="../images/newGame.png"/>
+	<texture name="buttonNewGame2" file="../images/newGame2.png"/>
+	<texture name="buttonNewGame3" file="../images/newGame3.png"/>
+	<texture name="buttonExit1" file="../images/exit1.png"/>
+	<texture name="buttonExit2" file="../images/exit2.png"/>
+	<texture name="buttonExit3" file="../images/exit3.png"/>
+	<texture name="buttonAuthor1" file="../images/autor1.png"/>
+	<texture name="buttonAuthor2" file="../images/autor2.png"/>
+	<texture name="buttonAuthor3" file="../images/autor3.png"/>
+</MenuScreen>
+<OptionScreen sound="MAINMENU">
+	<texture name="OSbackground" file="../images/menu2.png"/>
+	<texture name="frame" file="../images/menuOpcje1.png"/>
+	<texture name="buttonChecked" file="../images/Tick02.png"/>
+	<texture name="buttonUnchecked" file="../images/Unchecked2.png"/>
+	<texture name="buttonRedFlag1" file="../images/AOflgbRn.png"/>
+	<texture name="buttonRedFlag2" file="../images/AOflgbRh.png"/>
+	<texture name="buttonRedFlag3" file="../images/AOflgbRs.png"/>
+	<texture name="buttonBlueFlag1" file="../images/AOflgbBn.png"/>
+	<texture name="buttonBlueFlag2" file="../images/AOflgbBh.png"/>
+	<texture name="buttonBlueFlag3" file="../images/AOflgbBs.png"/>
+	<texture name="buttonPurpleFlag1" file="../images/AOflgbPn.png"/>
+	<texture name="buttonPurpleFlag2" file="../images/AOflgbPh.png"/>
+	<texture name="buttonPurpleFlag3" file="../images/AOflgbPs.png"/>
+	<texture name="buttonGreenFlag1" file="../images/AOflgbGn.png"/>
+	<texture name="buttonGreenFlag2" file="../images/AOflgbGh.png"/>
+	<texture name="buttonGreenFlag3" file="../images/AOflgbGs.png"/>
+	<texture name="redBar" file="../images/optionBarR1.png"/>
+	<texture name="blueBar" file="../images/optionBarB1.png"/>
+	<texture name="purpleBar" file="../images/optionBarP1.png"/>
+	<texture name="greenBar" file="../images/optionBarG1.png"/>
+	<texture name="buttonStart1" file="../images/start1.png"/>
+	<texture name="buttonStart2" file="../images/start2.png"/>
+	<texture name="buttonBack1" file="../images/ScnrBacn.png"/>
+	<texture name="buttonBack2" file="../images/ScnrBacs.png"/>
+	<texture name="buttonPrev1" file="../images/adoplfad.png"/>
+	<texture name="buttonPrev2" file="../images/adoplfan.png"/>
+	<texture name="buttonDiff11" file="../images/difficulty/GSPBut3n.png"/>
+	<texture name="buttonDiff12" file="../images/difficulty/GSPBut3s.png"/>
+	<texture name="buttonDiff21" file="../images/difficulty/GSPBut4n.png"/>
+	<texture name="buttonDiff22" file="../images/difficulty/GSPBut4s.png"/>
+	<texture name="buttonDiff31" file="../images/difficulty/GSPBut5n.png"/>
+	<texture name="buttonDiff32" file="../images/difficulty/GSPBut5s.png"/>
+	<texture name="buttonDiff41" file="../images/difficulty/GSPBut6n.png"/>
+	<texture name="buttonDiff42" file="../images/difficulty/GSPBut6s.png"/>
+	<texture name="buttonDiff51" file="../images/difficulty/GSPBut7n.png"/>
+	<texture name="buttonDiff52" file="../images/difficulty/GSPBut7s.png"/>
+	<texture name="buttonName" file="../images/nameButton3.png"/>
+</OptionScreen>
+<ExitScreen>
+	<texture name="EGbackground" file="../images/endGame.png"/>
+	<texture name="EBbackground" file="../images/okienkoWyjscia.png"/>
+	<texture name="buttonTick1" file="../images/OKAY1.png"/>
+	<texture name="buttonTick2" file="../images/OKAY2.png"/>
+	<texture name="buttonCancel1" file="../images/cancel1.png"/>
+	<texture name="buttonCancel2" file="../images/cancel2.png"/>
+</ExitScreen>
+<BattleScreen sound="COMBAT">
+	<texture name="battlefield0" file="../images/battlefield_winter.png"/>
+	<texture name="battlefield1" file="../images/battlefield_grass1.png"/>
+	<texture name="battlefield2" file="../images/battlefield_rock.png"/>
+	<texture name="battlefield3" file="../images/battlefield_swamp.png"/>
+	<texture name="battlefield4" file="../images/battlefield_underground.png"/>
+	<texture name="buttonWait1" file="../images/waitUnpressed.png"/>
+	<texture name="buttonWait2" file="../images/waitPressed.png"/>
+	<texture name="buttonWait3" file="../images/waitDisabled.png"/>
+	<texture name="buttonDefend1" file="../images/shieldUnpressed.png"/>
+	<texture name="buttonDefend2" file="../images/shieldPressed.png"/>
+	<texture name="buttonMenu1" file="../images/kompUnpressed.png"/>
+	<texture name="buttonMenu2" file="../images/kompPressed.png"/>
+	<texture name="grid" file="../images/pole.png"/>
+	<texture name="gridInRange" file="../images/pole2.png"/>
+	<texture name="toolbar" file="../images/cbar.png"/>
+	<texture name="rectangle" file="../images/okienko.png"/>
+	<texture name="statsRED" file="../images/statsRED.png"/>
+	<texture name="statsBLUE" file="../images/statsBLUE.png"/>
+	<texture name="statsGREEN" file="../images/statsGREEN.png"/>
+	<texture name="statsPURPLE" file="../images/statsPURPLE.png"/>
+	<texture name="statsORANGE" file="../images/statsORANGE.png"/>
+	<texture name="body1" load="F" file="../images/h010_01.png"/>
+	<texture name="body2" load="F" file="../images/ch00_01.png"/>
+	<texture name="body3" load="F" file="../images/h03_01.png"/>
+	<texture name="body4" load="F" file="../images/ch014_01.png"/>
+	<texture name="body5" load="F" file="../images/ch09_01.png"/>
+	<texture name="body6" load="F" file="../images/ch06_01.png"/>
+	<texture name="body7" load="F" file="../images/ch012_01.png"/>
+	<texture name="body8" load="F" file="../images/ch05_01.png"/>
+	<texture name="body9" load="F" file="../images/ch16_01.png"/>
+	<texture name="Czarny smokAvatar" load="F" file="../images/black dragon/BDRGAvatar.bmp"/>
+	<texture name="ChimeraAvatar" load="F" file="../images/chimera/ChimAvatar.bmp"/>
+	<texture name="MinotaurAvatar" load="F" file="../images/minotaur/MinAvatar.bmp"/>
+	<texture name="MeduzaAvatar" load="F" file="../images/meduza/MedAvatar.bmp"/>
+	<texture name="BeholderAvatar" load="F" file="../images/beholder/BehAvatar.bmp"/>
+	<texture name="HarpiaAvatar" load="F" file="../images/harpia/HarpAvatar.bmp"/>
+	<texture name="TroglodytaAvatar" load="F" file="../images/troglodyta/TrogAvatar.bmp"/>
+	<texture name="ArchaniolAvatar" load="F" file="../images/archaniol/AngAvatar.bmp"/>
+	<texture name="ChempionAvatar" load="F" file="../images/czempion/ChampAvatar.bmp"/>
+	<texture name="ZbrojnyAvatar" load="F" file="../images/krzyzowiec/CrusAvatar.bmp"/>
+	<texture name="MnichAvatar" load="F" file="../images/mnich/MonkAvatar.bmp"/>
+	<texture name="GryfAvatar" load="F" file="../images/gryf/GrifAvatar.bmp"/>
+	<texture name="KusznikAvatar" load="F" file="../images/kusznik/ArcherAvatar.bmp"/>
+	<texture name="HalabardnikAvatar" load="F" file="../images/halabardnik/HalAvatar.bmp"/>
+</BattleScreen>
+<EndGame sound="Defend_Castle">
+	<texture name="endFrame" file="../images/CPResult.bmp"/>
+</EndGame>
+<Castles>
+	<Castle name="Lochy" file="../images/lochy.png">
+		<texture name="body1"/>
+		<Heroes>
+			<texture name="Jeddite" file="../images/h02.png"/>
+			<texture name="Lorelei" file="../images/lorelei.png"/>
+			<texture name="Gunnar" file="../images/gunnar.png"/>
+		</Heroes>
+		<Units>
+			<unit name="Troglodyta" attack="5" defence="4" life="6" speed="5" type="0" size="1" number="154">
+				<texture name="TroglodytaAvatar" file="../images/troglodyta/TrogAvatar.bmp"/>
+			</unit>
+			<unit name="Harpia" attack="6" defence="6" life="14" speed="9" type="1" size="1" number="59"/>
+			<unit name="Beholder" attack="10" defence="8" life="22" speed="7" type="2" size="1" number="36">
+				<shot name="../images/yellowRay.png" type="RAY" posX="36:32:38" posY="28:24:29"/>
+			</unit>
+			<unit name="Meduza" attack="10" defence="10" life="30" speed="6" type="2" size="2" number="30">
+				<shot name="../images/arrow.png" type="BULLET" posX="86:84:82" posY="26:42:42"/>
+			</unit>
+			<unit name="Minotaur" attack="15" defence="15" life="50" speed="8" type="0" size="1" number="17"/>
+			<unit name="Chimera" attack="16" defence="14" life="80" speed="11" type="1" size="2" number="10"/>
+			<unit name="Czarny smok" attack="25" defence="25" life="30" speed="15" type="1" size="2" number="3"/>
+		</Units>
+	</Castle>
+	<Castle name="Zamek" file="../images/zamek.png">
+		<texture name="body2"/>
+		<Heroes>
+			<texture name="Adelaide" file="../images/h01.png"/>
+			<texture name="Christian" file="../images/christian.png"/>
+			<texture name="Adela" file="../images/adela.png"/>
+		</Heroes>
+		<Units>
+			<unit name="Halabardnik" attack="6" defence="5" life="10" speed="5" type="0" size="1" number="133"/>
+			<unit name="Kusznik" attack="6" defence="3" life="10" speed="9" type="2" size="1" number="67">
+				<shot name="../images/arrow.png" type="BULLET" posX="44:48:32" posY="8:16:22"/>
+			</unit>
+			<unit name="Gryf" attack="9" defence="9" life="25" speed="7" type="1" size="2" number="42"/>
+			<unit name="Zbrojny" attack="12" defence="12" life="35" speed="6" type="0" size="1" number="25"/>
+			<unit name="Mnich" attack="12" defence="10" life="30" speed="7" type="2" size="1" number="22">
+				<shot name="../images/whiteBall.png" type="BULLET" posX="43:58:40" posY="20:28:56"/>
+			</unit>
+			<unit name="Chempion" attack="16" defence="16" life="100" speed="9" type="0" size="2" number="8"/>
+			<unit name="Archaniol" attack="30" defence="30" life="250" speed="18" type="1" size="2" number="2"/>
+		</Units>
+	</Castle>
+	<Castle name="Cytadela" file="../images/cytadela.png">
+		<texture name="body4"/>
+		<Heroes>
+			<texture name="Rosic" file="../images/rosic.png"/>
+			<texture name="Verdish" file="../images/verdish.png"/>
+		</Heroes>
+		<Units>
+			<unit name="Gnoll" attack="4" defence="6" life="6" speed="5" type="0" size="1" number="143"/>
+			<unit name="Reptilion" attack="6" defence="8" life="24" speed="5" type="2" size="1" number="71">
+				<shot name="../images/arrow.png" type="BULLET" posX="48:60:42" posY="20:24:26"/>
+			</unit>
+			<unit name="Oslizg" attack="8" defence="10" life="20" speed="13" type="1" size="1" number="42"/>
+			<unit name="Bazyliszek" attack="12" defence="12" life="40" speed="7" type="0" size="2" number="25"/>
+			<unit name="Demigorgona" attack="11" defence="16" life="70" speed="6" type="0" size="2" number="17"/>
+			<unit name="Wiwerna" attack="14" defence="14" life="70" speed="11" type="1" size="2" number="9"/>
+			<unit name="Hydra" attack="18" defence="20" life="250" speed="7" type="0" size="2" number="4"/>
+		</Units>
+	</Castle>
+</Castles>
+<Animations>
+	<AnimationSet name="RED">
+		<Animation name="1">
+			<texture name="redFlag1" load="F" file="../images/red/abF01K25.png"/>
+			<texture name="redFlag2" load="F" file="../images/red/abF01K26.png"/>
+			<texture name="redFlag3" load="F" file="../images/red/abF01K27.png"/>
+			<texture name="redFlag4" load="F" file="../images/red/abF01K28.png"/>
+			<texture name="redFlag5" load="F" file="../images/red/abF01K29.png"/>
+			<texture name="redFlag6" load="F" file="../images/red/abF01K30.png"/>
+			<texture name="redFlag7" load="F" file="../images/red/abF01K31.png"/>
+			<texture name="redFlag8" load="F" file="../images/red/abF01K32.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="BLUE">
+		<Animation name="1">
+			<texture name="blueFlag1" load="F" file="../images/blue/abf01b25.png"/>
+			<texture name="blueFlag2" load="F" file="../images/blue/abf01b26.png"/>
+			<texture name="blueFlag3" load="F" file="../images/blue/abf01b27.png"/>
+			<texture name="blueFlag4" load="F" file="../images/blue/abf01b28.png"/>
+			<texture name="blueFlag5" load="F" file="../images/blue/abf01b29.png"/>
+			<texture name="blueFlag6" load="F" file="../images/blue/abf01b30.png"/>
+			<texture name="blueFlag7" load="F" file="../images/blue/abf01b31.png"/>
+			<texture name="blueFlag8" load="F" file="../images/blue/abf01b32.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="GREEN">
+		<Animation name="1">
+			<texture name="greenFlag1" load="F" file="../images/green/abf01g25.png"/>
+			<texture name="greenFlag2" load="F" file="../images/green/abf01g26.png"/>
+			<texture name="greenFlag3" load="F" file="../images/green/abf01g27.png"/>
+			<texture name="greenFlag4" load="F" file="../images/green/abf01g28.png"/>
+			<texture name="greenFlag5" load="F" file="../images/green/abf01g29.png"/>
+			<texture name="greenFlag6" load="F" file="../images/green/abf01g30.png"/>
+			<texture name="greenFlag7" load="F" file="../images/green/abf01g31.png"/>
+			<texture name="greenFlag8" load="F" file="../images/green/abf01g32.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="PURPLE">
+		<Animation name="1">
+			<texture name="purpleFlag1" load="F" file="../images/purple/abF01P25.png"/>
+			<texture name="purpleFlag2" load="F" file="../images/purple/abF01P26.png"/>
+			<texture name="purpleFlag3" load="F" file="../images/purple/abF01P27.png"/>
+			<texture name="purpleFlag4" load="F" file="../images/purple/abF01P28.png"/>
+			<texture name="purpleFlag5" load="F" file="../images/purple/abF01P29.png"/>
+			<texture name="purpleFlag6" load="F" file="../images/purple/abF01P30.png"/>
+			<texture name="purpleFlag7" load="F" file="../images/purple/abF01P31.png"/>
+			<texture name="purpleFlag8" load="F" file="../images/purple/abF01P32.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Czarny smok">
+		<Animation name="11" sound="">
+			<texture name="BDRGStartMove1" load="F" file="../images/black dragon/BDRGStart01.png"/>
+			<texture name="BDRGStartMove2" load="F" file="../images/black dragon/BDRGStart02.png"/>
+			<texture name="BDRGStartMove3" load="F" file="../images/black dragon/BDRGStart03.png"/>
+		</Animation>	
+		<Animation name="4" sound="">
+			<texture name="BDRGMove1" load="F" file="../images/black dragon/BDRGMove01.png"/>
+			<texture name="BDRGMove2" load="F" file="../images/black dragon/BDRGMove02.png"/>
+			<texture name="BDRGMove3" load="F" file="../images/black dragon/BDRGMove01.png"/>
+			<texture name="BDRGMove4" load="F" file="../images/black dragon/BDRGMove04.png"/>
+		</Animation>
+		<Animation name="12" sound="">
+			<texture name="BDRGStopMove1" load="F" file="../images/black dragon/BDRGStop01.png"/>
+			<texture name="BDRGStopMove2" load="F" file="../images/black dragon/BDRGStop02.png"/>
+			<texture name="BDRGStopMove3" load="F" file="../images/black dragon/BDRGStop03.png"/>
+			<texture name="BDRGStopMove4" load="F" file="../images/black dragon/BDRGStop04.png"/>
+			<texture name="BDRGStopMove5" load="F" file="../images/black dragon/BDRGStop05.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="BDRGIdle1" load="F" file="../images/black dragon/BDRGMouse02.png"/>
+			<texture name="BDRGIdle2" load="F" file="../images/black dragon/BDRGMouse03.png"/>
+			<texture name="BDRGIdle3" load="F" file="../images/black dragon/BDRGMouse04.png"/>
+			<texture name="BDRGIdle4" load="F" file="../images/black dragon/BDRGMouse05.png"/>
+			<texture name="BDRGIdle5" load="F" file="../images/black dragon/BDRGMouse06.png"/>
+		</Animation>       
+		<Animation name="1" frameT="3">
+			<texture name="BDRGStand" load="F" file="../images/black dragon/BDRGMouse01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="BDRGActive" load="T" file="../images/black dragon/BDRGMouse01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="BDRGTurnLeft1" load="F" file="../images/black dragon/BDRGTurn01.png"/>
+			<texture name="BDRGTurnLeft2" load="F" file="../images/black dragon/BDRGTurn02.png"/>
+			<texture name="BDRGTurnRight1" load="F" flip="T" file="../images/black dragon/BDRGTurn02.png"/>
+			<texture name="BDRGTurnRight2" load="F" flip="T" file="../images/black dragon/BDRGTurn01.png"/>
+		</Animation>
+		<Animation name="8" sound="">
+			<texture name="BDRGAttackS0" load="F" file="../images/black dragon/BDRGMouse01.png"/>
+			<texture name="BDRGAttackS1" load="F" file="../images/black dragon/CBDRGN64.png"/>
+			<texture name="BDRGAttackS2" load="F" file="../images/black dragon/CBDRGN65.png"/>
+			<texture name="BDRGAttackS3" load="F" file="../images/black dragon/CBDRGN66.png"/>
+			<texture name="BDRGAttackS4" load="F" file="../images/black dragon/CBDRGN67.png"/>
+			<texture name="BDRGAttackS5" load="F" file="../images/black dragon/CBDRGN68.png"/>
+			<texture name="BDRGAttackS6" load="F" file="../images/black dragon/CBDRGN69.png"/>
+		</Animation>
+		<Animation name="9" sound="">
+			<texture name="BDRGGetHit1" load="F" file="../images/black dragon/BDRGMouse01.png"/>
+			<texture name="BDRGGetHit2" load="F" file="../images/black dragon/BDRGHitted01.png"/>
+			<texture name="BDRGGetHit3" load="F" file="../images/black dragon/BDRGHitted02.png"/>
+			<texture name="BDRGGetHit4" load="F" file="../images/black dragon/BDRGHitted03.png"/>
+			<texture name="BDRGGetHit5" load="F" file="../images/black dragon/BDRGHitted04.png"/>
+			<texture name="BDRGGetHit6" load="F" file="../images/black dragon/BDRGHitted05.png"/>
+		</Animation>
+		<Animation name="10" sound="">
+			<texture name="BDRGDie1" load="F" file="../images/black dragon/BDRGMouse01.png"/>
+			<texture name="BDRGDie2" load="F" file="../images/black dragon/BDRGDead01.png"/>
+			<texture name="BDRGDie3" load="F" file="../images/black dragon/BDRGDead02.png"/>
+			<texture name="BDRGDie4" load="F" file="../images/black dragon/BDRGDead03.png"/>
+			<texture name="BDRGDie5" load="F" file="../images/black dragon/BDRGDead04.png"/>
+			<texture name="BDRGDie6" load="F" file="../images/black dragon/BDRGDead05.png"/>
+			<texture name="BDRGDie7" load="F" file="../images/black dragon/BDRGDead06.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="BDRGAttackD01" load="F" file="../images/black dragon/CBDRGN40.png"/>
+			<texture name="BDRGAttackD02" load="F" file="../images/black dragon/CBDRGN41.png"/>
+			<texture name="BDRGAttackD03" load="F" file="../images/black dragon/CBDRGN42.png"/>
+			<texture name="BDRGAttackD04" load="F" file="../images/black dragon/CBDRGN70.png"/>
+			<texture name="BDRGAttackD06" load="F" file="../images/black dragon/CBDRGN71.png"/>
+			<texture name="BDRGAttackD07" load="F" file="../images/black dragon/CBDRGN72.png"/>
+			<texture name="BDRGAttackD08" load="F" file="../images/black dragon/CBDRGN73.png"/>
+			<texture name="BDRGAttackD09" load="F" file="../images/black dragon/CBDRGN47.png"/>
+			<texture name="BDRGAttackD10" load="F" file="../images/black dragon/CBDRGN48.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="BDRGAttackU01" load="F" file="../images/black dragon/CBDRGN26.png"/>
+			<texture name="BDRGAttackU02" load="F" file="../images/black dragon/CBDRGN27.png"/>
+			<texture name="BDRGAttackU03" load="F" file="../images/black dragon/CBDRGN28.png"/>
+			<texture name="BDRGAttackU04" load="F" file="../images/black dragon/CBDRGN60.png"/>
+			<texture name="BDRGAttackU05" load="F" file="../images/black dragon/CBDRGN61.png"/>
+			<texture name="BDRGAttackU06" load="F" file="../images/black dragon/CBDRGN62.png"/>
+			<texture name="BDRGAttackU07" load="F" file="../images/black dragon/CBDRGN63.png"/>
+			<texture name="BDRGAttackU08" load="F" file="../images/black dragon/CBDRGN33.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="BDRGDefend01" load="F" file="../images/black dragon/BDRGDefend01.png"/>
+			<texture name="BDRGDefend02" load="F" file="../images/black dragon/BDRGDefend02.png"/>
+			<texture name="BDRGDefend03" load="F" file="../images/black dragon/BDRGDefend03.png"/>
+			<texture name="BDRGDefend04" load="F" file="../images/black dragon/BDRGDefend04.png"/>
+			<texture name="BDRGDefend05" load="F" file="../images/black dragon/BDRGDefend04.png"/>
+			<texture name="BDRGDefend06" load="F" file="../images/black dragon/BDRGDefend05.png"/>
+			<texture name="BDRGDefend07" load="F" file="../images/black dragon/BDRGDefend06.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Beholder">
+		<Animation name="4">
+			<texture name="BehMove4" load="F" file="../images/beholder/ceveye38.png"/>
+			<texture name="BehMove5" load="F" file="../images/beholder/ceveye39.png"/>
+			<texture name="BehMove6" load="F" file="../images/beholder/ceveye40.png"/>
+			<texture name="BehMove7" load="F" file="../images/beholder/ceveye41.png"/>
+			<texture name="BehMove8" load="F" file="../images/beholder/ceveye42.png"/>
+			<texture name="BehMove9" load="F" file="../images/beholder/ceveye43.png"/>
+			<texture name="BehMove10" load="F" file="../images/beholder/ceveye44.png"/>
+			<texture name="BehMov11" load="F" file="../images/beholder/ceveye45.png"/>
+			<texture name="BehMove12" load="F" file="../images/beholder/ceveye46.png"/>
+			<texture name="BehMove13" load="F" file="../images/beholder/ceveye47.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="BehIdle1" load="F" file="../images/beholder/ceveye31.png"/>
+			<texture name="BehIdle2" load="F" file="../images/beholder/ceveye32.png"/>
+			<texture name="BehIdle3" load="F" file="../images/beholder/ceveye33.png"/>
+			<texture name="BehIdle4" load="F" file="../images/beholder/ceveye34.png"/>
+			<texture name="BehIdle5" load="F" file="../images/beholder/ceveye33.png"/>
+			<texture name="BehIdle6" load="F" file="../images/beholder/ceveye32.png"/>
+			<texture name="BehIdle7" load="F" file="../images/beholder/ceveye31.png"/>
+		</Animation>       
+		<Animation name="1" frameT="5">
+			<texture name="BehStand" load="F" file="../images/beholder/ceveye31.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="BehActive" load="T" file="../images/beholder/ceveye31.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="BehTurnLeft1" load="F" file="../images/beholder/ceveye57.png"/>
+			<texture name="BehTurnLeft2" load="F" file="../images/beholder/ceveye58.png"/>
+			<texture name="BehTurnRight1" load="F" flip="T" file="../images/beholder/ceveye58.png"/>
+			<texture name="BehTurnRight2" load="F" flip="T" file="../images/beholder/ceveye57.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="BehAttackS1" load="F" file="../images/beholder/ceveye01.png"/>
+			<texture name="BehAttackS2" load="F" file="../images/beholder/ceveye02.png"/>
+			<texture name="BehAttackS3" load="F" file="../images/beholder/ceveye03.png"/>
+			<texture name="BehAttackS4" load="F" file="../images/beholder/ceveye04.png"/>
+			<texture name="BehAttackS5" load="F" file="../images/beholder/ceveye05.png"/>
+			<texture name="BehAttackS6" load="F" file="../images/beholder/ceveye06.png"/>
+			<texture name="BehAttackS7" load="F" file="../images/beholder/ceveye02.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="BehGetHit1" load="F" file="../images/beholder/ceveye51.png"/>
+			<texture name="BehGetHit2" load="F" file="../images/beholder/ceveye52.png"/>
+			<texture name="BehGetHit3" load="F" file="../images/beholder/ceveye53.png"/>
+			<texture name="BehGetHit4" load="F" file="../images/beholder/ceveye54.png"/>
+			<texture name="BehGetHit5" load="F" file="../images/beholder/ceveye55.png"/>
+			<texture name="BehGetHit6" load="F" file="../images/beholder/ceveye56.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="BehDie1" load="F" file="../images/beholder/ceveye19.png"/>
+			<texture name="BehDie2" load="F" file="../images/beholder/ceveye20.png"/>
+			<texture name="BehDie3" load="F" file="../images/beholder/ceveye21.png"/>
+			<texture name="BehDie4" load="F" file="../images/beholder/ceveye22.png"/>
+			<texture name="BehDie5" load="F" file="../images/beholder/ceveye23.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="BehAttackD01" load="F" file="../images/beholder/ceveye13.png"/>
+			<texture name="BehAttackD02" load="F" file="../images/beholder/ceveye14.png"/>
+			<texture name="BehAttackD03" load="F" file="../images/beholder/ceveye15.png"/>
+			<texture name="BehAttackD04" load="F" file="../images/beholder/ceveye16.png"/>
+			<texture name="BehAttackD05" load="F" file="../images/beholder/ceveye17.png"/>
+			<texture name="BehAttackD06" load="F" file="../images/beholder/ceveye18.png"/>
+			<texture name="BehAttackD07" load="F" file="../images/beholder/ceveye14.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="BehAttackU01" load="F" file="../images/beholder/ceveye07.png"/>
+			<texture name="BehAttackU02" load="F" file="../images/beholder/ceveye08.png"/>
+			<texture name="BehAttackU03" load="F" file="../images/beholder/ceveye09.png"/>
+			<texture name="BehAttackU04" load="F" file="../images/beholder/ceveye10.png"/>
+			<texture name="BehAttackU05" load="F" file="../images/beholder/ceveye11.png"/>
+			<texture name="BehAttackU06" load="F" file="../images/beholder/ceveye12.png"/>
+			<texture name="BehAttackU07" load="F" file="../images/beholder/ceveye08.png"/>
+		</Animation>
+		<Animation name="SHOOT">
+			<texture name="BehShootS01" load="F" file="../images/beholder/ceveye66.png"/>
+			<texture name="BehShootS02" load="F" file="../images/beholder/ceveye67.png"/>
+			<texture name="BehShootS03" load="F" file="../images/beholder/ceveye68.png"/>
+			<texture name="BehShootS04" load="F" file="../images/beholder/ceveye68.png"/>
+			<texture name="BehShootS05" load="F" file="../images/beholder/ceveye68.png"/>
+			<texture name="BehShootS06" load="F" file="../images/beholder/ceveye69.png"/>
+			<texture name="BehShootS07" load="F" file="../images/beholder/ceveye70.png"/>
+		</Animation>
+		<Animation name="SHOOT_DOWN">
+			<texture name="BehShootD01" load="F" file="../images/beholder/ceveye76.png"/>
+			<texture name="BehShootD02" load="F" file="../images/beholder/ceveye77.png"/>
+			<texture name="BehShootD03" load="F" file="../images/beholder/ceveye78.png"/>
+			<texture name="BehShootD04" load="F" file="../images/beholder/ceveye78.png"/>
+			<texture name="BehShootD05" load="F" file="../images/beholder/ceveye78.png"/>
+			<texture name="BehShootD06" load="F" file="../images/beholder/ceveye79.png"/>
+			<texture name="BehShootD07" load="F" file="../images/beholder/ceveye80.png"/>
+		</Animation>
+		<Animation name="SHOOT_UP">
+			<texture name="BehShootU01" load="F" file="../images/beholder/ceveye71.png"/>
+			<texture name="BehShootU02" load="F" file="../images/beholder/ceveye72.png"/>
+			<texture name="BehShootU03" load="F" file="../images/beholder/ceveye72.png"/>
+			<texture name="BehShootU04" load="F" file="../images/beholder/ceveye72.png"/>
+			<texture name="BehShootU05" load="F" file="../images/beholder/ceveye72.png"/>
+			<texture name="BehShootU06" load="F" file="../images/beholder/ceveye73.png"/>
+			<texture name="BehShootU07" load="F" file="../images/beholder/ceveye74.png"/>
+			<texture name="BehShootU08" load="F" file="../images/beholder/ceveye75.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="BehDefend01" load="F" file="../images/beholder/ceveye24.png"/>
+			<texture name="BehDefend02" load="F" file="../images/beholder/ceveye25.png"/>
+			<texture name="BehDefend03" load="F" file="../images/beholder/ceveye26.png"/>
+			<texture name="BehDefend04" load="F" file="../images/beholder/ceveye27.png"/>
+			<texture name="BehDefend05" load="F" file="../images/beholder/ceveye27.png"/>
+			<texture name="BehDefend06" load="F" file="../images/beholder/ceveye27.png"/>
+			<texture name="BehDefend07" load="F" file="../images/beholder/ceveye27.png"/>
+			<texture name="BehDefend08" load="F" file="../images/beholder/ceveye27.png"/>
+			<texture name="BehDefend09" load="F" file="../images/beholder/ceveye26.png"/>
+			<texture name="BehDefend10" load="F" file="../images/beholder/ceveye25.png"/>
+			<texture name="BehDefend11" load="F" file="../images/beholder/ceveye24.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Harpia">
+		<Animation name="11">
+			<texture name="HarpStartMove1" load="F" file="../images/harpia/charph51.png"/>
+			<texture name="HarpStartMove2" load="F" file="../images/harpia/charph52.png"/>
+			<texture name="HarpStartMove3" load="F" file="../images/harpia/charph53.png"/>
+		</Animation>
+		<Animation name="4">
+			<texture name="HarpMove01" load="F" file="../images/harpia/charph54.png"/>
+			<texture name="HarpMove02" load="F" file="../images/harpia/charph55.png"/>
+			<texture name="HarpMove03" load="F" file="../images/harpia/charph56.png"/>
+			<texture name="HarpMove04" load="F" file="../images/harpia/charph57.png"/>
+			<texture name="HarpMove05" load="F" file="../images/harpia/charph58.png"/>
+			<texture name="HarpMove06" load="F" file="../images/harpia/charph59.png"/>
+			<texture name="HarpMove07" load="F" file="../images/harpia/charph60.png"/>
+		</Animation>
+		<Animation name="12">
+			<texture name="HarpEndMove01" load="F" file="../images/harpia/charph61.png"/>
+			<texture name="HarpEndMove02" load="F" file="../images/harpia/charph62.png"/>
+			<texture name="HarpEndMove03" load="F" file="../images/harpia/charph63.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="HarpIdle01" load="F" file="../images/harpia/charph42.png"/>
+			<texture name="HarpIdle02" load="F" file="../images/harpia/charph43.png"/>
+			<texture name="HarpIdle03" load="F" file="../images/harpia/charph44.png"/>
+			<texture name="HarpIdle04" load="F" file="../images/harpia/charph45.png"/>
+			<texture name="HarpIdle05" load="F" file="../images/harpia/charph46.png"/>
+			<texture name="HarpIdle06" load="F" file="../images/harpia/charph45.png"/>
+			<texture name="HarpIdle07" load="F" file="../images/harpia/charph46.png"/>
+			<texture name="HarpIdle08" load="F" file="../images/harpia/charph45.png"/>
+			<texture name="HarpIdle09" load="F" file="../images/harpia/charph44.png"/>
+			<texture name="HarpIdle10" load="F" file="../images/harpia/charph43.png"/>
+			<texture name="HarpIdle11" load="F" file="../images/harpia/charph42.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="HarpStand" load="F" file="../images/harpia/charph47.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="HarpActive" load="T" file="../images/harpia/charph47.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="HarpTurnLeft1" load="F" file="../images/harpia/charph69.png"/>
+			<texture name="HarpTurnLeft2" load="F" file="../images/harpia/charph70.png"/>
+			<texture name="HarpTurnLeft2" load="F" file="../images/harpia/charph71.png"/>
+			<texture name="HarpTurnRight1" load="F" flip="T" file="../images/harpia/charph71.png"/>
+			<texture name="HarpTurnRight2" load="F" flip="T" file="../images/harpia/charph70.png"/>
+			<texture name="HarpTurnRight2" load="F" flip="T" file="../images/harpia/charph69.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="HarpAttack1" load="F" file="../images/harpia/charph21.png"/>
+			<texture name="HarpAttack2" load="F" file="../images/harpia/charph01.png"/>
+			<texture name="HarpAttack3" load="F" file="../images/harpia/charph02.png"/>
+			<texture name="HarpAttack4" load="F" file="../images/harpia/charph03.png"/>
+			<texture name="HarpAttack5" load="F" file="../images/harpia/charph04.png"/>
+			<texture name="HarpAttack6" load="F" file="../images/harpia/charph05.png"/>
+			<texture name="HarpAttack7" load="F" file="../images/harpia/charph06.png"/>
+			<texture name="HarpAttack8" load="F" file="../images/harpia/charph07.png"/>
+			<texture name="HarpAttack9" load="F" file="../images/harpia/charph08.png"/>
+			<texture name="HarpAttack10" load="F" file="../images/harpia/charph09.png"/>
+			<texture name="HarpAttack11" load="F" file="../images/harpia/charph10.png"/>
+			<texture name="HarpAttack12" load="F" file="../images/harpia/charph21.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="HarpGetHit1" load="F" file="../images/harpia/charph66.png"/>
+			<texture name="HarpGetHit2" load="F" file="../images/harpia/charph68.png"/>
+			<texture name="HarpGetHit3" load="F" file="../images/harpia/charph67.png"/>
+			<texture name="HarpGetHit4" load="F" file="../images/harpia/charph65.png"/>
+			<texture name="HarpGetHit5" load="F" file="../images/harpia/charph64.png"/>
+			<texture name="HarpGetHit6" load="F" file="../images/harpia/charph21.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="HarpDie1" load="F" file="../images/harpia/charph28.png"/>
+			<texture name="HarpDie2" load="F" file="../images/harpia/charph29.png"/>
+			<texture name="HarpDie3" load="F" file="../images/harpia/charph30.png"/>
+			<texture name="HarpDie4" load="F" file="../images/harpia/charph31.png"/>
+			<texture name="HarpDie5" load="F" file="../images/harpia/charph32.png"/>
+			<texture name="HarpDie6" load="F" file="../images/harpia/charph33.png"/>
+			<texture name="HarpDie7" load="F" file="../images/harpia/charph34.png"/>
+		</Animation>		
+		<Animation name="DEFEND">
+			<texture name="HarpDefend1" load="F" file="../images/harpia/charph35.png"/>
+			<texture name="HarpDefend2" load="F" file="../images/harpia/charph36.png"/>
+			<texture name="HarpDefend3" load="F" file="../images/harpia/charph37.png"/>
+			<texture name="HarpDefend4" load="F" file="../images/harpia/charph38.png"/>
+			<texture name="HarpDefend5" load="F" file="../images/harpia/charph39.png"/>
+			<texture name="HarpDefend6" load="F" file="../images/harpia/charph40.png"/>
+			<texture name="HarpDefend7" load="F" file="../images/harpia/charph41.png"/>
+			<texture name="HarpDefend8" load="F" file="../images/harpia/charph21.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="HarpAttackD01" load="F" file="../images/harpia/charph21.png"/>
+			<texture name="HarpAttackD02" load="F" file="../images/harpia/charph22.png"/>
+			<texture name="HarpAttackD03" load="F" file="../images/harpia/charph23.png"/>
+			<texture name="HarpAttackD04" load="F" file="../images/harpia/charph24.png"/>
+			<texture name="HarpAttackD06" load="F" file="../images/harpia/charph26.png"/>
+			<texture name="HarpAttackD07" load="F" file="../images/harpia/charph27.png"/>
+			<texture name="HarpAttackD08" load="F" file="../images/harpia/charph26.png"/>
+			<texture name="HarpAttackD09" load="F" file="../images/harpia/charph25.png"/>
+			<texture name="HarpAttackD10" load="F" file="../images/harpia/charph24.png"/>
+			<texture name="HarpAttackD11" load="F" file="../images/harpia/charph22.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="HarpAttackU01" load="F" file="../images/harpia/charph21.png"/>
+			<texture name="HarpAttackU02" load="F" file="../images/harpia/charph11.png"/>
+			<texture name="HarpAttackU03" load="F" file="../images/harpia/charph12.png"/>
+			<texture name="HarpAttackU04" load="F" file="../images/harpia/charph13.png"/>
+			<texture name="HarpAttackU05" load="F" file="../images/harpia/charph14.png"/>
+			<texture name="HarpAttackU06" load="F" file="../images/harpia/charph15.png"/>
+			<texture name="HarpAttackU07" load="F" file="../images/harpia/charph16.png"/>
+			<texture name="HarpAttackU08" load="F" file="../images/harpia/charph17.png"/>
+			<texture name="HarpAttackU09" load="F" file="../images/harpia/charph18.png"/>
+			<texture name="HarpAttackU10" load="F" file="../images/harpia/charph19.png"/>
+			<texture name="HarpAttackU11" load="F" file="../images/harpia/charph20.png"/>
+			<texture name="HarpAttackU12" load="F" file="../images/harpia/charph21.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Chimera">
+		<Animation name="11">
+			<texture name="ChimStartMove1" load="F" file="../images/chimera/ccmcor55.png"/>
+			<texture name="ChimStartMove2" load="F" file="../images/chimera/ccmcor56.png"/>
+			<texture name="ChimStartMove3" load="F" file="../images/chimera/ccmcor57.png"/>
+		</Animation>
+		<Animation name="4">
+			<texture name="ChimMove01" load="F" file="../images/chimera/ccmcor58.png"/>
+			<texture name="ChimMove02" load="F" file="../images/chimera/ccmcor59.png"/>
+			<texture name="ChimMove03" load="F" file="../images/chimera/ccmcor60.png"/>
+			<texture name="ChimMove04" load="F" file="../images/chimera/ccmcor61.png"/>
+			<texture name="ChimMove05" load="F" file="../images/chimera/ccmcor62.png"/>
+			<texture name="ChimMove06" load="F" file="../images/chimera/ccmcor63.png"/>
+		</Animation>
+		<Animation name="12">
+			<texture name="ChimEndMove01" load="F" file="../images/chimera/ccmcor64.png"/>
+			<texture name="ChimEndMove02" load="F" file="../images/chimera/ccmcor65.png"/>
+			<texture name="ChimEndMove03" load="F" file="../images/chimera/ccmcor66.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="ChimIdle1" load="F" file="../images/chimera/ccmcor47.png"/>
+			<texture name="ChimIdle2" load="F" file="../images/chimera/ccmcor48.png"/>
+			<texture name="ChimIdle3" load="F" file="../images/chimera/ccmcor49.png"/>
+			<texture name="ChimIdle4" load="F" file="../images/chimera/ccmcor50.png"/>
+			<texture name="ChimIdle5" load="F" file="../images/chimera/ccmcor50.png"/>
+			<texture name="ChimIdle6" load="F" file="../images/chimera/ccmcor49.png"/>
+			<texture name="ChimIdle7" load="F" file="../images/chimera/ccmcor48.png"/>
+			<texture name="ChimIdle8" load="F" file="../images/chimera/ccmcor47.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="ChimStand" load="F" file="../images/chimera/ccmcor76.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="ChimActive" load="T" file="../images/chimera/ccmcor76.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="ChimTurnLeft1" load="F" file="../images/chimera/ccmcor73.png"/>
+			<texture name="ChimTurnLeft2" load="F" file="../images/chimera/ccmcor74.png"/>
+			<texture name="ChimTurnLeft2" load="F" file="../images/chimera/ccmcor75.png"/>
+			<texture name="ChimTurnRight1" load="F" flip="T" file="../images/chimera/ccmcor75.png"/>
+			<texture name="ChimTurnRight2" load="F" flip="T" file="../images/chimera/ccmcor74.png"/>
+			<texture name="ChimTurnRight2" load="F" flip="T" file="../images/chimera/ccmcor73.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="ChimAttackS1" load="F" file="../images/chimera/ccmcor01.png"/>
+			<texture name="ChimAttackS2" load="F" file="../images/chimera/ccmcor02.png"/>
+			<texture name="ChimAttackS3" load="F" file="../images/chimera/ccmcor03.png"/>
+			<texture name="ChimAttackS4" load="F" file="../images/chimera/ccmcor04.png"/>
+			<texture name="ChimAttackS5" load="F" file="../images/chimera/ccmcor05.png"/>
+			<texture name="ChimAttackS6" load="F" file="../images/chimera/ccmcor06.png"/>
+			<texture name="ChimAttackS7" load="F" file="../images/chimera/ccmcor07.png"/>
+			<texture name="ChimAttackS8" load="F" file="../images/chimera/ccmcor08.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="ChimGetHit1" load="F" file="../images/chimera/ccmcor67.png"/>
+			<texture name="ChimGetHit2" load="F" file="../images/chimera/ccmcor68.png"/>
+			<texture name="ChimGetHit3" load="F" file="../images/chimera/ccmcor69.png"/>
+			<texture name="ChimGetHit4" load="F" file="../images/chimera/ccmcor70.png"/>
+			<texture name="ChimGetHit5" load="F" file="../images/chimera/ccmcor71.png"/>
+			<texture name="ChimGetHit6" load="F" file="../images/chimera/ccmcor72.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="ChimDie1" load="F" file="../images/chimera/ccmcor67.png"/>
+			<texture name="ChimDie2" load="F" file="../images/chimera/ccmcor68.png"/>
+			<texture name="ChimDie3" load="F" file="../images/chimera/ccmcor37.png"/>
+			<texture name="ChimDie4" load="F" file="../images/chimera/ccmcor38.png"/>
+			<texture name="ChimDie5" load="F" file="../images/chimera/ccmcor39.png"/>
+			<texture name="ChimDie6" load="F" file="../images/chimera/ccmcor40.png"/>
+			<texture name="ChimDie7" load="F" file="../images/chimera/ccmcor41.png"/>
+			<texture name="ChimDie8" load="F" file="../images/chimera/ccmcor42.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="ChimDefend01" load="F" file="../images/chimera/ccmcor43.png"/>
+			<texture name="ChimDefend02" load="F" file="../images/chimera/ccmcor44.png"/>
+			<texture name="ChimDefend03" load="F" file="../images/chimera/ccmcor45.png"/>
+			<texture name="ChimDefend04" load="F" file="../images/chimera/ccmcor46.png"/>
+			<texture name="ChimDefend05" load="F" file="../images/chimera/ccmcor46.png"/>
+			<texture name="ChimDefend06" load="F" file="../images/chimera/ccmcor46.png"/>
+			<texture name="ChimDefend07" load="F" file="../images/chimera/ccmcor46.png"/>
+			<texture name="ChimDefend08" load="F" file="../images/chimera/ccmcor46.png"/>
+			<texture name="ChimDefend09" load="F" file="../images/chimera/ccmcor45.png"/>
+			<texture name="ChimDefend10" load="F" file="../images/chimera/ccmcor44.png"/>
+			<texture name="ChimDefend11" load="F" file="../images/chimera/ccmcor43.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="ChimAttackU1" load="F" file="../images/chimera/ccmcor01.png"/>
+			<texture name="ChimAttackU2" load="F" file="../images/chimera/ccmcor02.png"/>
+			<texture name="ChimAttackU3" load="F" file="../images/chimera/ccmcor09.png"/>
+			<texture name="ChimAttackU4" load="F" file="../images/chimera/ccmcor10.png"/>
+			<texture name="ChimAttackU5" load="F" file="../images/chimera/ccmcor11.png"/>
+			<texture name="ChimAttackU6" load="F" file="../images/chimera/ccmcor12.png"/>
+			<texture name="ChimAttackU7" load="F" file="../images/chimera/ccmcor13.png"/>
+			<texture name="ChimAttackU8" load="F" file="../images/chimera/ccmcor08.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="ChimAttackD1" load="F" file="../images/chimera/ccmcor01.png"/>
+			<texture name="ChimAttackD2" load="F" file="../images/chimera/ccmcor02.png"/>
+			<texture name="ChimAttackD3" load="F" file="../images/chimera/ccmcor14.png"/>
+			<texture name="ChimAttackD4" load="F" file="../images/chimera/ccmcor15.png"/>
+			<texture name="ChimAttackD5" load="F" file="../images/chimera/ccmcor16.png"/>
+			<texture name="ChimAttackD6" load="F" file="../images/chimera/ccmcor17.png"/>
+			<texture name="ChimAttackD7" load="F" file="../images/chimera/ccmcor18.png"/>
+			<texture name="ChimAttackD8" load="F" file="../images/chimera/ccmcor08.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Meduza">
+		<Animation name="4">
+			<texture name="MedMove1" load="F" file="../images/meduza/Cmeduq57.png"/>
+			<texture name="MedMove2" load="F" file="../images/meduza/Cmeduq58.png"/>
+			<texture name="MedMove3" load="F" file="../images/meduza/Cmeduq59.png"/>
+			<texture name="MedMove4" load="F" file="../images/meduza/Cmeduq60.png"/>
+			<texture name="MedMove5" load="F" file="../images/meduza/Cmeduq61.png"/>
+			<texture name="MedMove6" load="F" file="../images/meduza/Cmeduq62.png"/>
+			<texture name="MedMove7" load="F" file="../images/meduza/Cmeduq63.png"/>
+			<texture name="MedMove8" load="F" file="../images/meduza/Cmeduq64.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="MedIdle01" load="F" file="../images/meduza/Cmeduq47.png"/>
+			<texture name="MedIdle02" load="F" file="../images/meduza/Cmeduq48.png"/>
+			<texture name="MedIdle03" load="F" file="../images/meduza/Cmeduq49.png"/>
+			<texture name="MedIdle04" load="F" file="../images/meduza/Cmeduq50.png"/>
+			<texture name="MedIdle05" load="F" file="../images/meduza/Cmeduq50.png"/>
+			<texture name="MedIdle06" load="F" file="../images/meduza/Cmeduq50.png"/>
+			<texture name="MedIdle07" load="F" file="../images/meduza/Cmeduq50.png"/>
+			<texture name="MedIdle08" load="F" file="../images/meduza/Cmeduq49.png"/>
+			<texture name="MedIdle09" load="F" file="../images/meduza/Cmeduq48.png"/>
+			<texture name="MedIdle10" load="F" file="../images/meduza/Cmeduq47.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="MedStand" load="F" file="../images/meduza/Cmeduq00.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="MedActive" load="T" file="../images/meduza/Cmeduq00.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="MedTurnLeft1" load="F" file="../images/meduza/Cmeduq73.png"/>
+			<texture name="MedTurnLeft2" load="F" file="../images/meduza/Cmeduq74.png"/>
+			<texture name="MedTurnRight1" load="F" flip="T" file="../images/meduza/Cmeduq74.png"/>
+			<texture name="MedTurnRight2" load="F" flip="T" file="../images/meduza/Cmeduq73.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="MedAttackS01" load="F" file="../images/meduza/Cmeduq19.png"/>
+			<texture name="MedAttackS02" load="F" file="../images/meduza/Cmeduq20.png"/>
+			<texture name="MedAttackS03" load="F" file="../images/meduza/Cmeduq21.png"/>
+			<texture name="MedAttackS04" load="F" file="../images/meduza/Cmeduq22.png"/>
+			<texture name="MedAttackS05" load="F" file="../images/meduza/Cmeduq22.png"/>
+			<texture name="MedAttackS06" load="F" file="../images/meduza/Cmeduq22.png"/>
+			<texture name="MedAttackS07" load="F" file="../images/meduza/Cmeduq22.png"/>
+			<texture name="MedAttackS08" load="F" file="../images/meduza/Cmeduq22.png"/>
+			<texture name="MedAttackS09" load="F" file="../images/meduza/Cmeduq23.png"/>
+			<texture name="MedAttackS10" load="F" file="../images/meduza/Cmeduq24.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="MedGetHit1" load="F" file="../images/meduza/Cmeduq67.png"/>
+			<texture name="MedGetHit2" load="F" file="../images/meduza/Cmeduq68.png"/>
+			<texture name="MedGetHit3" load="F" file="../images/meduza/Cmeduq69.png"/>
+			<texture name="MedGetHit4" load="F" file="../images/meduza/Cmeduq70.png"/>
+			<texture name="MedGetHit5" load="F" file="../images/meduza/Cmeduq71.png"/>
+			<texture name="MedGetHit6" load="F" file="../images/meduza/Cmeduq72.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="MedDie1" load="F" file="../images/meduza/Cmeduq67.png"/>
+			<texture name="MedDie2" load="F" file="../images/meduza/Cmeduq68.png"/>
+			<texture name="MedDie3" load="F" file="../images/meduza/Cmeduq37.png"/>
+			<texture name="MedDie4" load="F" file="../images/meduza/Cmeduq38.png"/>
+			<texture name="MedDie5" load="F" file="../images/meduza/Cmeduq39.png"/>
+			<texture name="MedDie6" load="F" file="../images/meduza/Cmeduq40.png"/>
+			<texture name="MedDie7" load="F" file="../images/meduza/Cmeduq41.png"/>
+			<texture name="MedDie8" load="F" file="../images/meduza/Cmeduq42.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="MedDefend01" load="F" file="../images/meduza/Cmeduq43.png"/>
+			<texture name="MedDefend02" load="F" file="../images/meduza/Cmeduq44.png"/>
+			<texture name="MedDefend03" load="F" file="../images/meduza/Cmeduq45.png"/>
+			<texture name="MedDefend04" load="F" file="../images/meduza/Cmeduq46.png"/>
+			<texture name="MedDefend05" load="F" file="../images/meduza/Cmeduq46.png"/>
+			<texture name="MedDefend06" load="F" file="../images/meduza/Cmeduq46.png"/>
+			<texture name="MedDefend07" load="F" file="../images/meduza/Cmeduq46.png"/>
+			<texture name="MedDefend08" load="F" file="../images/meduza/Cmeduq45.png"/>
+			<texture name="MedDefend09" load="F" file="../images/meduza/Cmeduq44.png"/>
+			<texture name="MedDefend10" load="F" file="../images/meduza/Cmeduq43.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="MedAttackU01" load="F" file="../images/meduza/Cmeduq25.png"/>
+			<texture name="MedAttackU02" load="F" file="../images/meduza/Cmeduq26.png"/>
+			<texture name="MedAttackU03" load="F" file="../images/meduza/Cmeduq27.png"/>
+			<texture name="MedAttackU04" load="F" file="../images/meduza/Cmeduq28.png"/>
+			<texture name="MedAttackU05" load="F" file="../images/meduza/Cmeduq28.png"/>
+			<texture name="MedAttackU06" load="F" file="../images/meduza/Cmeduq28.png"/>
+			<texture name="MedAttackU07" load="F" file="../images/meduza/Cmeduq28.png"/>
+			<texture name="MedAttackU08" load="F" file="../images/meduza/Cmeduq28.png"/>
+			<texture name="MedAttackU09" load="F" file="../images/meduza/Cmeduq29.png"/>
+			<texture name="MedAttackU10" load="F" file="../images/meduza/Cmeduq30.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="MedAttackD01" load="F" file="../images/meduza/Cmeduq31.png"/>
+			<texture name="MedAttackD02" load="F" file="../images/meduza/Cmeduq32.png"/>
+			<texture name="MedAttackD03" load="F" file="../images/meduza/Cmeduq33.png"/>
+			<texture name="MedAttackD04" load="F" file="../images/meduza/Cmeduq34.png"/>
+			<texture name="MedAttackD05" load="F" file="../images/meduza/Cmeduq34.png"/>
+			<texture name="MedAttackD06" load="F" file="../images/meduza/Cmeduq34.png"/>
+			<texture name="MedAttackD07" load="F" file="../images/meduza/Cmeduq34.png"/>
+			<texture name="MedAttackD08" load="F" file="../images/meduza/Cmeduq34.png"/>
+			<texture name="MedAttackD09" load="F" file="../images/meduza/Cmeduq35.png"/>
+			<texture name="MedAttackD10" load="F" file="../images/meduza/Cmeduq36.png"/>
+		</Animation>
+		<Animation name="SHOOT">
+			<texture name="MedShootS01" load="F" file="../images/meduza/Cmeduq01.png"/>
+			<texture name="MedShootS02" load="F" file="../images/meduza/Cmeduq02.png"/>
+			<texture name="MedShootS03" load="F" file="../images/meduza/Cmeduq03.png"/>
+			<texture name="MedShootS04" load="F" file="../images/meduza/Cmeduq04.png"/>
+			<texture name="MedShootS05" load="F" file="../images/meduza/Cmeduq04.png"/>
+			<texture name="MedShootS06" load="F" file="../images/meduza/Cmeduq04.png"/>
+			<texture name="MedShootS07" load="F" file="../images/meduza/Cmeduq04.png"/>
+			<texture name="MedShootS08" load="F" file="../images/meduza/Cmeduq04.png"/>
+			<texture name="MedShootS09" load="F" file="../images/meduza/Cmeduq05.png"/>
+			<texture name="MedShootS10" load="F" file="../images/meduza/Cmeduq06.png"/>
+		</Animation>
+		<Animation name="SHOOT_UP">
+			<texture name="MedShootU01" load="F" file="../images/meduza/Cmeduq07.png"/>
+			<texture name="MedShootU02" load="F" file="../images/meduza/Cmeduq08.png"/>
+			<texture name="MedShootU03" load="F" file="../images/meduza/Cmeduq09.png"/>
+			<texture name="MedShootU04" load="F" file="../images/meduza/Cmeduq10.png"/>
+			<texture name="MedShootU05" load="F" file="../images/meduza/Cmeduq10.png"/>
+			<texture name="MedShootU06" load="F" file="../images/meduza/Cmeduq10.png"/>
+			<texture name="MedShootU07" load="F" file="../images/meduza/Cmeduq10.png"/>
+			<texture name="MedShootU08" load="F" file="../images/meduza/Cmeduq10.png"/>
+			<texture name="MedShootU09" load="F" file="../images/meduza/Cmeduq11.png"/>
+			<texture name="MedShootU10" load="F" file="../images/meduza/Cmeduq12.png"/>
+		</Animation>
+		<Animation name="SHOOT_DOWN">
+			<texture name="MedShootD01" load="F" file="../images/meduza/Cmeduq13.png"/>
+			<texture name="MedShootD02" load="F" file="../images/meduza/Cmeduq14.png"/>
+			<texture name="MedShootD03" load="F" file="../images/meduza/Cmeduq15.png"/>
+			<texture name="MedShootD04" load="F" file="../images/meduza/Cmeduq16.png"/>
+			<texture name="MedShootD05" load="F" file="../images/meduza/Cmeduq16.png"/>
+			<texture name="MedShootD06" load="F" file="../images/meduza/Cmeduq16.png"/>
+			<texture name="MedShootD07" load="F" file="../images/meduza/Cmeduq16.png"/>
+			<texture name="MedShootD08" load="F" file="../images/meduza/Cmeduq16.png"/>
+			<texture name="MedShootD09" load="F" file="../images/meduza/Cmeduq17.png"/>
+			<texture name="MedShootD10" load="F" file="../images/meduza/Cmeduq18.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Minotaur">
+		<Animation name="4">
+			<texture name="MinMove1" load="F" file="../images/minotaur/CMINOK09.png"/>
+			<texture name="MinMove2" load="F" file="../images/minotaur/CMINOK10.png"/>
+			<texture name="MinMove3" load="F" file="../images/minotaur/CMINOK11.png"/>
+			<texture name="MinMove4" load="F" file="../images/minotaur/CMINOK12.png"/>
+			<texture name="MinMove5" load="F" file="../images/minotaur/CMINOK13.png"/>
+			<texture name="MinMove6" load="F" file="../images/minotaur/CMINOK14.png"/>
+			<texture name="MinMove7" load="F" file="../images/minotaur/CMINOK15.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="MinIdle1" load="F" file="../images/minotaur/CMINOK01.png"/>
+			<texture name="MinIdle2" load="F" file="../images/minotaur/CMINOK02.png"/>
+			<texture name="MinIdle3" load="F" file="../images/minotaur/CMINOK03.png"/>
+			<texture name="MinIdle4" load="F" file="../images/minotaur/CMINOK04.png"/>
+			<texture name="MinIdle5" load="F" file="../images/minotaur/CMINOK05.png"/>
+			<texture name="MinIdle6" load="F" file="../images/minotaur/CMINOK06.png"/>
+			<texture name="MinIdle7" load="F" file="../images/minotaur/CMINOK07.png"/>
+			<texture name="MinIdle8" load="F" file="../images/minotaur/CMINOK08.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="MinStand" load="F" file="../images/minotaur/CMINOK01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="MinActive" load="T" file="../images/minotaur/CMINOK01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="MinTurnLeft1" load="F" file="../images/minotaur/CMINOK16.png"/>
+			<texture name="MinTurnLeft2" load="F" file="../images/minotaur/CMINOK17.png"/>
+			<texture name="MinTurnRight1" load="F" flip="T" file="../images/minotaur/CMINOK17.png"/>
+			<texture name="MinTurnRight2" load="F" flip="T" file="../images/minotaur/CMINOK16.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="MinAttack1" load="F" file="../images/minotaur/CMINOK28.png"/>
+			<texture name="MinAttack2" load="F" file="../images/minotaur/CMINOK29.png"/>
+			<texture name="MinAttack3" load="F" file="../images/minotaur/CMINOK30.png"/>
+			<texture name="MinAttack4" load="F" file="../images/minotaur/CMINOK31.png"/>
+			<texture name="MinAttack5" load="F" file="../images/minotaur/CMINOK32.png"/>
+			<texture name="MinAttack6" load="F" file="../images/minotaur/CMINOK33.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="MinGetHit1" load="F" file="../images/minotaur/CMINOK41.png"/>
+			<texture name="MinGetHit2" load="F" file="../images/minotaur/CMINOK42.png"/>
+			<texture name="MinGetHit3" load="F" file="../images/minotaur/CMINOK43.png"/>
+			<texture name="MinGetHit4" load="F" file="../images/minotaur/CMINOK44.png"/>
+			<texture name="MinGetHit5" load="F" file="../images/minotaur/CMINOK45.png"/>
+			<texture name="MinGetHit6" load="F" file="../images/minotaur/CMINOK46.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="MinDie1" load="F" file="../images/minotaur/CMINOK47.png"/>
+			<texture name="MinDie2" load="F" file="../images/minotaur/CMINOK48.png"/>
+			<texture name="MinDie3" load="F" file="../images/minotaur/CMINOK49.png"/>
+			<texture name="MinDie4" load="F" file="../images/minotaur/CMINOK50.png"/>
+			<texture name="MinDie5" load="F" file="../images/minotaur/CMINOK51.png"/>
+			<texture name="MinDie6" load="F" file="../images/minotaur/CMINOK52.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="MinDefend1" load="F" file="../images/minotaur/CMINOK18.png"/>
+			<texture name="MinDefend2" load="F" file="../images/minotaur/CMINOK19.png"/>
+			<texture name="MinDefend3" load="F" file="../images/minotaur/CMINOK19.png"/>
+			<texture name="MinDefend4" load="F" file="../images/minotaur/CMINOK20.png"/>
+			<texture name="MinDefend5" load="F" file="../images/minotaur/CMINOK20.png"/>
+			<texture name="MinDefend6" load="F" file="../images/minotaur/CMINOK21.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="MinAttackD01" load="F" file="../images/minotaur/CMINOK34.png"/>
+			<texture name="MinAttackD02" load="F" file="../images/minotaur/CMINOK35.png"/>
+			<texture name="MinAttackD03" load="F" file="../images/minotaur/CMINOK36.png"/>
+			<texture name="MinAttackD04" load="F" file="../images/minotaur/CMINOK37.png"/>
+			<texture name="MinAttackD05" load="F" file="../images/minotaur/CMINOK38.png"/>
+			<texture name="MinAttackD06" load="F" file="../images/minotaur/CMINOK39.png"/>
+			<texture name="MinAttackD07" load="F" file="../images/minotaur/CMINOK40.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="MinAttackU01" load="F" file="../images/minotaur/CMINOK22.png"/>
+			<texture name="MinAttackU02" load="F" file="../images/minotaur/CMINOK23.png"/>
+			<texture name="MinAttackU03" load="F" file="../images/minotaur/CMINOK24.png"/>
+			<texture name="MinAttackU04" load="F" file="../images/minotaur/CMINOK25.png"/>
+			<texture name="MinAttackU05" load="F" file="../images/minotaur/CMINOK26.png"/>
+			<texture name="MinAttackU06" load="F" file="../images/minotaur/CMINOK27.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Troglodyta">
+		<Animation name="4">
+			<texture name="TrgMove1" load="F" file="../images/troglodyta/Citrog32.png"/>
+			<texture name="TrgMove2" load="F" file="../images/troglodyta/Citrog33.png"/>
+			<texture name="TrgMove3" load="F" file="../images/troglodyta/Citrog34.png"/>
+			<texture name="TrgMove4" load="F" file="../images/troglodyta/Citrog35.png"/>
+			<texture name="TrgMove5" load="F" file="../images/troglodyta/Citrog36.png"/>
+			<texture name="TrgMove6" load="F" file="../images/troglodyta/Citrog37.png"/>
+			<texture name="TrgMove7" load="F" file="../images/troglodyta/Citrog38.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="TrgIdle1" load="F" file="../images/troglodyta/Citrog04.png"/>
+			<texture name="TrgIdle2" load="F" file="../images/troglodyta/Citrog05.png"/>
+			<texture name="TrgIdle3" load="F" file="../images/troglodyta/Citrog06.png"/>
+			<texture name="TrgIdle4" load="F" file="../images/troglodyta/Citrog07.png"/>
+			<texture name="TrgIdle5" load="F" file="../images/troglodyta/Citrog06.png"/>
+			<texture name="TrgIdle6" load="F" file="../images/troglodyta/Citrog05.png"/>
+			<texture name="TrgIdle7" load="F" file="../images/troglodyta/Citrog04.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="TrgStand" load="F" file="../images/troglodyta/Citrog00.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="TrgActive" load="T" file="../images/troglodyta/Citrog00.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="TrgTurnLeft1" load="F" file="../images/troglodyta/Citrog11.png"/>
+			<texture name="TrgTurnLeft2" load="F" file="../images/troglodyta/Citrog10.png"/>
+			<texture name="TrgTurnRight1" load="F" flip="T" file="../images/troglodyta/Citrog10.png"/>
+			<texture name="TrgTurnRight2" load="F" flip="T" file="../images/troglodyta/Citrog11.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="TrgAttackS01" load="F" file="../images/troglodyta/Citrog08.png"/>
+			<texture name="TrgAttackS02" load="F" file="../images/troglodyta/Citrog09.png"/>
+			<texture name="TrgAttackS03" load="F" file="../images/troglodyta/Citrog10.png"/>
+			<texture name="TrgAttackS04" load="F" file="../images/troglodyta/Citrog11.png"/>
+			<texture name="TrgAttackS05" load="F" file="../images/troglodyta/Citrog12.png"/>
+			<texture name="TrgAttackS06" load="F" file="../images/troglodyta/Citrog13.png"/>
+			<texture name="TrgAttackS07" load="F" file="../images/troglodyta/Citrog12.png"/>
+			<texture name="TrgAttackS08" load="F" file="../images/troglodyta/Citrog11.png"/>
+			<texture name="TrgAttackS09" load="F" file="../images/troglodyta/Citrog10.png"/>
+			<texture name="TrgAttackS10" load="F" file="../images/troglodyta/Citrog09.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="TrgGetHit1" load="F" file="../images/troglodyta/Citrog20.png"/>
+			<texture name="TrgGetHit2" load="F" file="../images/troglodyta/Citrog21.png"/>
+			<texture name="TrgGetHit3" load="F" file="../images/troglodyta/Citrog22.png"/>
+			<texture name="TrgGetHit4" load="F" file="../images/troglodyta/Citrog23.png"/>
+			<texture name="TrgGetHit5" load="F" file="../images/troglodyta/Citrog24.png"/>
+			<texture name="TrgGetHit6" load="F" file="../images/troglodyta/Citrog25.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="TrgDie1" load="F" file="../images/troglodyta/Citrog20.png"/>
+			<texture name="TrgDie2" load="F" file="../images/troglodyta/Citrog21.png"/>
+			<texture name="TrgDie3" load="F" file="../images/troglodyta/Citrog22.png"/>
+			<texture name="TrgDie4" load="F" file="../images/troglodyta/Citrog45.png"/>
+			<texture name="TrgDie5" load="F" file="../images/troglodyta/Citrog46.png"/>
+			<texture name="TrgDie6" load="F" file="../images/troglodyta/Citrog47.png"/>
+			<texture name="TrgDie7" load="F" file="../images/troglodyta/Citrog48.png"/>
+			<texture name="TrgDie8" load="F" file="../images/troglodyta/Citrog47.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="TrgDefend01" load="F" file="../images/troglodyta/Citrog26.png"/>
+			<texture name="TrgDefend02" load="F" file="../images/troglodyta/Citrog27.png"/>
+			<texture name="TrgDefend03" load="F" file="../images/troglodyta/Citrog28.png"/>
+			<texture name="TrgDefend04" load="F" file="../images/troglodyta/Citrog49.png"/>
+			<texture name="TrgDefend05" load="F" file="../images/troglodyta/Citrog30.png"/>
+			<texture name="TrgDefend06" load="F" file="../images/troglodyta/Citrog31.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="TrgAttackU1" load="F" file="../images/troglodyta/Citrog39.png"/>
+			<texture name="TrgAttackU2" load="F" file="../images/troglodyta/Citrog40.png"/>
+			<texture name="TrgAttackU3" load="F" file="../images/troglodyta/Citrog41.png"/>
+			<texture name="TrgAttackU4" load="F" file="../images/troglodyta/Citrog42.png"/>
+			<texture name="TrgAttackU5" load="F" file="../images/troglodyta/Citrog43.png"/>
+			<texture name="TrgAttackU6" load="F" file="../images/troglodyta/Citrog44.png"/>
+			<texture name="TrgAttackU7" load="F" file="../images/troglodyta/Citrog40.png"/>
+			<texture name="TrgAttackU8" load="F" file="../images/troglodyta/Citrog39.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="TrgAttackD01" load="F" file="../images/troglodyta/Citrog14.png"/>
+			<texture name="TrgAttackD02" load="F" file="../images/troglodyta/Citrog15.png"/>
+			<texture name="TrgAttackD03" load="F" file="../images/troglodyta/Citrog16.png"/>
+			<texture name="TrgAttackD04" load="F" file="../images/troglodyta/Citrog17.png"/>
+			<texture name="TrgAttackD05" load="F" file="../images/troglodyta/Citrog18.png"/>
+			<texture name="TrgAttackD06" load="F" file="../images/troglodyta/Citrog19.png"/>
+			<texture name="TrgAttackD07" load="F" file="../images/troglodyta/Citrog18.png"/>
+			<texture name="TrgAttackD08" load="F" file="../images/troglodyta/Citrog17.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Halabardnik">
+		<Animation name="4" begin="0" end="5">
+			<texture name="HalMove1" load="F" file="../images/halabardnik/Chalbd44.png"/>
+			<texture name="HalMove2" load="F" file="../images/halabardnik/Chalbd45.png"/>
+			<texture name="HalMove3" load="F" file="../images/halabardnik/Chalbd46.png"/>
+			<texture name="HalMove4" load="F" file="../images/halabardnik/Chalbd47.png"/>
+			<texture name="HalMove5" load="F" file="../images/halabardnik/Chalbd48.png"/>
+			<texture name="HalMove6" load="F" file="../images/halabardnik/Chalbd49.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="HalIdle1" load="F" file="../images/halabardnik/Chalbd05.png"/>
+			<texture name="HalIdle2" load="F" file="../images/halabardnik/Chalbd06.png"/>
+			<texture name="HalIdle3" load="F" file="../images/halabardnik/Chalbd07.png"/>
+			<texture name="HalIdle4" load="F" file="../images/halabardnik/Chalbd08.png"/>
+		</Animation>       
+		<Animation name="1" frameT="3">
+			<texture name="HalStand" load="F" file="../images/halabardnik/Chalbd00.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="HalActive" load="T" file="../images/halabardnik/Chalbd00.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="HalTurnLeft1" load="F" file="../images/halabardnik/Chalbd33.png"/>
+			<texture name="HalTurnLeft2" load="F" file="../images/halabardnik/Chalbd34.png"/>
+			<texture name="HalTurnRight2" load="F" flip="T" file="../images/halabardnik/Chalbd34.png"/>
+			<texture name="HalTurnRight1" load="F" flip="T" file="../images/halabardnik/Chalbd33.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="HalAttackS1" load="F" file="../images/halabardnik/Chalbd09.png"/>
+			<texture name="HalAttackS2" load="F" file="../images/halabardnik/Chalbd10.png"/>
+			<texture name="HalAttackS3" load="F" file="../images/halabardnik/Chalbd11.png"/>
+			<texture name="HalAttackS4" load="F" file="../images/halabardnik/Chalbd12.png"/>
+			<texture name="HalAttackS5" load="F" file="../images/halabardnik/Chalbd13.png"/>
+			<texture name="HalAttackS6" load="F" file="../images/halabardnik/Chalbd14.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="HalGetHit1" load="F" file="../images/halabardnik/Chalbd22.png"/>
+			<texture name="HalGetHit2" load="F" file="../images/halabardnik/Chalbd23.png"/>
+			<texture name="HalGetHit3" load="F" file="../images/halabardnik/Chalbd24.png"/>
+			<texture name="HalGetHit4" load="F" file="../images/halabardnik/Chalbd25.png"/>
+			<texture name="HalGetHit5" load="F" file="../images/halabardnik/Chalbd26.png"/>
+			<texture name="HalGetHit6" load="F" file="../images/halabardnik/Chalbd27.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="HalDie1" load="F" file="../images/halabardnik/Chalbd22.png"/>
+			<texture name="HalDie2" load="F" file="../images/halabardnik/Chalbd36.png"/>
+			<texture name="HalDie3" load="F" file="../images/halabardnik/Chalbd37.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="HalDefend1" load="F" file="../images/halabardnik/Chalbd28.png"/>
+			<texture name="HalDefend2" load="F" file="../images/halabardnik/Chalbd29.png"/>
+			<texture name="HalDefend3" load="F" file="../images/halabardnik/Chalbd30.png"/>
+			<texture name="HalDefend4" load="F" file="../images/halabardnik/Chalbd31.png"/>
+			<texture name="HalDefend5" load="F" file="../images/halabardnik/Chalbd32.png"/>
+			<texture name="HalDefend6" load="F" file="../images/halabardnik/Chalbd32.png"/>
+			<texture name="HalDefend7" load="F" file="../images/halabardnik/Chalbd32.png"/>
+			<texture name="HalDefend8" load="F" file="../images/halabardnik/Chalbd32.png"/>
+			<texture name="HalDefend9" load="F" file="../images/halabardnik/Chalbd31.png"/>
+			<texture name="HalDefend10" load="F" file="../images/halabardnik/Chalbd30.png"/>
+			<texture name="HalDefend11" load="F" file="../images/halabardnik/Chalbd29.png"/>
+			<texture name="HalDefend12" load="F" file="../images/halabardnik/Chalbd28.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="HalAttackD01" load="F" file="../images/halabardnik/Chalbd15.png"/>
+			<texture name="HalAttackD02" load="F" file="../images/halabardnik/Chalbd16.png"/>
+			<texture name="HalAttackD03" load="F" file="../images/halabardnik/Chalbd17.png"/>
+			<texture name="HalAttackD04" load="F" file="../images/halabardnik/Chalbd18.png"/>
+			<texture name="HalAttackD05" load="F" file="../images/halabardnik/Chalbd19.png"/>
+			<texture name="HalAttackD06" load="F" file="../images/halabardnik/Chalbd20.png"/>
+			<texture name="HalAttackD07" load="F" file="../images/halabardnik/Chalbd21.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="HalAttackU01" load="F" file="../images/halabardnik/Chalbd38.png"/>
+			<texture name="HalAttackU02" load="F" file="../images/halabardnik/Chalbd39.png"/>
+			<texture name="HalAttackU03" load="F" file="../images/halabardnik/Chalbd40.png"/>
+			<texture name="HalAttackU04" load="F" file="../images/halabardnik/Chalbd41.png"/>
+			<texture name="HalAttackU05" load="F" file="../images/halabardnik/Chalbd42.png"/>
+			<texture name="HalAttackU06" load="F" file="../images/halabardnik/Chalbd43.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Kusznik">
+		<Animation name="4">
+			<texture name="ArchMove03" load="F" file="../images/kusznik/chcbow55.png"/>
+			<texture name="ArchMove04" load="F" file="../images/kusznik/chcbow56.png"/>
+			<texture name="ArchMove05" load="F" file="../images/kusznik/chcbow57.png"/>
+			<texture name="ArchMove06" load="F" file="../images/kusznik/chcbow58.png"/>
+			<texture name="ArchMove07" load="F" file="../images/kusznik/chcbow59.png"/>
+			<texture name="ArchMove08" load="F" file="../images/kusznik/chcbow60.png"/>
+			<texture name="ArchMove09" load="F" file="../images/kusznik/chcbow61.png"/>
+			<texture name="ArchMove10" load="F" file="../images/kusznik/chcbow62.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="ArchIdle1" load="F" file="../images/kusznik/chcbow73.png"/>
+			<texture name="ArchIdle2" load="F" file="../images/kusznik/chcbow74.png"/>
+			<texture name="ArchIdle3" load="F" file="../images/kusznik/chcbow75.png"/>
+			<texture name="ArchIdle4" load="F" file="../images/kusznik/chcbow76.png"/>
+			<texture name="ArchIdle5" load="F" file="../images/kusznik/chcbow76.png"/>
+			<texture name="ArchIdle6" load="F" file="../images/kusznik/chcbow76.png"/>
+			<texture name="ArchIdle7" load="F" file="../images/kusznik/chcbow75.png"/>
+			<texture name="ArchIdle8" load="F" file="../images/kusznik/chcbow74.png"/>
+			<texture name="ArchIdle9" load="F" file="../images/kusznik/chcbow73.png"/>
+		</Animation>       
+		<Animation name="1" frameT="5">
+			<texture name="ArchStand" load="F" file="../images/kusznik/chcbow00.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="ArchActive" load="T" file="../images/kusznik/chcbow00.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="ArchTurnLeft1" load="F" file="../images/kusznik/chcbow71.png"/>
+			<texture name="ArchTurnLeft2" load="F" file="../images/kusznik/chcbow72.png"/>
+			<texture name="ArchTurnRight2" load="F" flip="T" file="../images/kusznik/chcbow72.png"/>
+			<texture name="ArchTurnRight1" load="F" flip="T" file="../images/kusznik/chcbow71.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="ArchAttackS1" load="F" file="../images/kusznik/chcbow19.png"/>
+			<texture name="ArchAttackS2" load="F" file="../images/kusznik/chcbow20.png"/>
+			<texture name="ArchAttackS3" load="F" file="../images/kusznik/chcbow21.png"/>
+			<texture name="ArchAttackS4" load="F" file="../images/kusznik/chcbow22.png"/>
+			<texture name="ArchAttackS5" load="F" file="../images/kusznik/chcbow23.png"/>
+			<texture name="ArchAttackS6" load="F" file="../images/kusznik/chcbow24.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="ArchGetHit1" load="F" file="../images/kusznik/chcbow65.png"/>
+			<texture name="ArchGetHit2" load="F" file="../images/kusznik/chcbow66.png"/>
+			<texture name="ArchGetHit3" load="F" file="../images/kusznik/chcbow67.png"/>
+			<texture name="ArchGetHit4" load="F" file="../images/kusznik/chcbow68.png"/>
+			<texture name="ArchGetHit5" load="F" file="../images/kusznik/chcbow69.png"/>
+			<texture name="ArchGetHit6" load="F" file="../images/kusznik/chcbow70.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="ArchDie1" load="F" file="../images/kusznik/chcbow37.png"/>
+			<texture name="ArchDie2" load="F" file="../images/kusznik/chcbow38.png"/>
+			<texture name="ArchDie3" load="F" file="../images/kusznik/chcbow39.png"/>
+			<texture name="ArchDie4" load="F" file="../images/kusznik/chcbow40.png"/>
+			<texture name="ArchDie5" load="F" file="../images/kusznik/chcbow41.png"/>
+			<texture name="ArchDie6" load="F" file="../images/kusznik/chcbow42.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="ArchDefend01" load="F" file="../images/kusznik/chcbow43png"/>
+			<texture name="ArchDefend02" load="F" file="../images/kusznik/chcbow44.png"/>
+			<texture name="ArchDefend03" load="F" file="../images/kusznik/chcbow45.png"/>
+			<texture name="ArchDefend04" load="F" file="../images/kusznik/chcbow46.png"/>
+			<texture name="ArchDefend05" load="F" file="../images/kusznik/chcbow46.png"/>
+			<texture name="ArchDefend06" load="F" file="../images/kusznik/chcbow46.png"/>
+			<texture name="ArchDefend07" load="F" file="../images/kusznik/chcbow45.png"/>
+			<texture name="ArchDefend08" load="F" file="../images/kusznik/chcbow44.png"/>
+			<texture name="ArchDefend09" load="F" file="../images/kusznik/chcbow43.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="ArchAttackU01" load="F" file="../images/kusznik/chcbow25.png"/>
+			<texture name="ArchAttackU02" load="F" file="../images/kusznik/chcbow26.png"/>
+			<texture name="ArchAttackU03" load="F" file="../images/kusznik/chcbow27.png"/>
+			<texture name="ArchAttackU04" load="F" file="../images/kusznik/chcbow28.png"/>
+			<texture name="ArchAttackU05" load="F" file="../images/kusznik/chcbow29.png"/>
+			<texture name="ArchAttackU06" load="F" file="../images/kusznik/chcbow30.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="ArchAttackD01" load="F" file="../images/kusznik/chcbow31.png"/>
+			<texture name="ArchAttackD02" load="F" file="../images/kusznik/chcbow32.png"/>
+			<texture name="ArchAttackD03" load="F" file="../images/kusznik/chcbow33.png"/>
+			<texture name="ArchAttackD04" load="F" file="../images/kusznik/chcbow34.png"/>
+			<texture name="ArchAttackD05" load="F" file="../images/kusznik/chcbow35.png"/>
+			<texture name="ArchAttackD06" load="F" file="../images/kusznik/chcbow36.png"/>
+		</Animation>
+		<Animation name="SHOOT">
+			<texture name="ArchShootS01" load="F" file="../images/kusznik/chcbow01.png"/>
+			<texture name="ArchShootS02" load="F" file="../images/kusznik/chcbow02.png"/>
+			<texture name="ArchShootS03" load="F" file="../images/kusznik/chcbow03.png"/>
+			<texture name="ArchShootS04" load="F" file="../images/kusznik/chcbow04.png"/>
+			<texture name="ArchShootS05" load="F" file="../images/kusznik/chcbow04.png"/>
+			<texture name="ArchShootS06" load="F" file="../images/kusznik/chcbow04.png"/>
+			<texture name="ArchShootS07" load="F" file="../images/kusznik/chcbow05.png"/>
+			<texture name="ArchShootS08" load="F" file="../images/kusznik/chcbow06.png"/>
+		</Animation>
+		<Animation name="SHOOT_UP">
+			<texture name="ArchShootU01" load="F" file="../images/kusznik/chcbow07.png"/>
+			<texture name="ArchShootU02" load="F" file="../images/kusznik/chcbow08.png"/>
+			<texture name="ArchShootU03" load="F" file="../images/kusznik/chcbow09.png"/>
+			<texture name="ArchShootU04" load="F" file="../images/kusznik/chcbow10.png"/>
+			<texture name="ArchShootU05" load="F" file="../images/kusznik/chcbow10.png"/>
+			<texture name="ArchShootU06" load="F" file="../images/kusznik/chcbow10.png"/>
+			<texture name="ArchShootU07" load="F" file="../images/kusznik/chcbow11.png"/>
+			<texture name="ArchShootU08" load="F" file="../images/kusznik/chcbow12.png"/>
+		</Animation>
+		<Animation name="SHOOT_DOWN">
+			<texture name="ArchShootD01" load="F" file="../images/kusznik/chcbow13.png"/>
+			<texture name="ArchShootD02" load="F" file="../images/kusznik/chcbow14.png"/>
+			<texture name="ArchShootD03" load="F" file="../images/kusznik/chcbow15.png"/>
+			<texture name="ArchShootD04" load="F" file="../images/kusznik/chcbow16.png"/>
+			<texture name="ArchShootD05" load="F" file="../images/kusznik/chcbow16.png"/>
+			<texture name="ArchShootD06" load="F" file="../images/kusznik/chcbow16.png"/>
+			<texture name="ArchShootD07" load="F" file="../images/kusznik/chcbow17.png"/>
+			<texture name="ArchShootD08" load="F" file="../images/kusznik/chcbow18.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Archaniol">
+		<Animation name="11">
+			<texture name="AngelStartMove01" load="F" file="../images/archaniol/crangl39.png"/>
+			<texture name="AngelStartMove02" load="F" file="../images/archaniol/crangl40.png"/>
+		</Animation>
+		<Animation name="4">
+			<texture name="AngelMove03" load="F" file="../images/archaniol/crangl41.png"/>
+			<texture name="AngelMove04" load="F" file="../images/archaniol/crangl42.png"/>
+			<texture name="AngelMove05" load="F" file="../images/archaniol/crangl43.png"/>
+			<texture name="AngelMove06" load="F" file="../images/archaniol/crangl44.png"/>
+			<texture name="AngelMove07" load="F" file="../images/archaniol/crangl45.png"/>
+			<texture name="AngelMove08" load="F" file="../images/archaniol/crangl46.png"/>
+			<texture name="AngelMove09" load="F" file="../images/archaniol/crangl47.png"/>
+		</Animation>
+		<Animation name="12">
+			<texture name="AngelStopMove10" load="F" file="../images/archaniol/crangl48.png"/>
+			<texture name="AngelStopMove11" load="F" file="../images/archaniol/crangl49.png"/>
+			<texture name="AngelStopMove12" load="F" file="../images/archaniol/crangl50.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="AngelIdle1" load="F" file="../images/archaniol/crangl35.png"/>
+			<texture name="AngelIdle2" load="F" file="../images/archaniol/crangl36.png"/>
+			<texture name="AngelIdle3" load="F" file="../images/archaniol/crangl37.png"/>
+			<texture name="AngelIdle4" load="F" file="../images/archaniol/crangl38.png"/>
+			<texture name="AngelIdle5" load="F" file="../images/archaniol/crangl37.png"/>
+			<texture name="AngelIdle6" load="F" file="../images/archaniol/crangl36.png"/>
+			<texture name="AngelIdle7" load="F" file="../images/archaniol/crangl35.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="AngelStand" load="F" file="../images/archaniol/crangl00.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="AngelActive" load="T" file="../images/archaniol/crangl00.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="AngelTurnLeft1" load="F" file="../images/archaniol/crangl55.png"/>
+			<texture name="AngelTurnLeft2" load="F" file="../images/archaniol/crangl56.png"/>
+			<texture name="AngelTurnRight2" load="F" flip="T" file="../images/archaniol/crangl56.png"/>
+			<texture name="AngelTurnRight1" load="F" flip="T" file="../images/archaniol/crangl55.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="AngelAttack1" load="F" file="../images/archaniol/crangl01.png"/>
+			<texture name="AngelAttack2" load="F" file="../images/archaniol/crangl02.png"/>
+			<texture name="AngelAttack3" load="F" file="../images/archaniol/crangl03.png"/>
+			<texture name="AngelAttack4" load="F" file="../images/archaniol/crangl04.png"/>
+			<texture name="AngelAttack5" load="F" file="../images/archaniol/crangl05.png"/>
+			<texture name="AngelAttack6" load="F" file="../images/archaniol/crangl06.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="AngelGetHit1" load="F" file="../images/archaniol/crangl19.png"/>
+			<texture name="AngelGetHit2" load="F" file="../images/archaniol/crangl20.png"/>
+			<texture name="AngelGetHit3" load="F" file="../images/archaniol/crangl21.png"/>
+			<texture name="AngelGetHit4" load="F" file="../images/archaniol/crangl22.png"/>
+			<texture name="AngelGetHit5" load="F" file="../images/archaniol/crangl23.png"/>
+			<texture name="AngelGetHit6" load="F" file="../images/archaniol/crangl24.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="AngelDie1" load="F" file="../images/archaniol/crangl19.png"/>
+			<texture name="AngelDie2" load="F" file="../images/archaniol/crangl20.png"/>
+			<texture name="AngelDie3" load="F" file="../images/archaniol/crangl25.png"/>
+			<texture name="AngelDie4" load="F" file="../images/archaniol/crangl26.png"/>
+			<texture name="AngelDie5" load="F" file="../images/archaniol/crangl27.png"/>
+			<texture name="AngelDie6" load="F" file="../images/archaniol/crangl28.png"/>
+			<texture name="AngelDie7" load="F" file="../images/archaniol/crangl29.png"/>
+			<texture name="AngelDie8" load="F" file="../images/archaniol/crangl30.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="AngelAttackD01" load="F" file="../images/archaniol/crangl13.png"/>
+			<texture name="AngelAttackD02" load="F" file="../images/archaniol/crangl14.png"/>
+			<texture name="AngelAttackD03" load="F" file="../images/archaniol/crangl15.png"/>
+			<texture name="AngelAttackD04" load="F" file="../images/archaniol/crangl16.png"/>
+			<texture name="AngelAttackD06" load="F" file="../images/archaniol/crangl17.png"/>
+			<texture name="AngelAttackD07" load="F" file="../images/archaniol/crangl18.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="AngelAttackU02" load="F" file="../images/archaniol/crangl07.png"/>
+			<texture name="AngelAttackU03" load="F" file="../images/archaniol/crangl08.png"/>
+			<texture name="AngelAttackU04" load="F" file="../images/archaniol/crangl09.png"/>
+			<texture name="AngelAttackU05" load="F" file="../images/archaniol/crangl10.png"/>
+			<texture name="AngelAttackU06" load="F" file="../images/archaniol/crangl11.png"/>
+			<texture name="AngelAttackU07" load="F" file="../images/archaniol/crangl12.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="AngelDefend01" load="F" file="../images/archaniol/crangl31.png"/>
+			<texture name="AngelDefend02" load="F" file="../images/archaniol/crangl32.png"/>
+			<texture name="AngelDefend03" load="F" file="../images/archaniol/crangl33.png"/>
+			<texture name="AngelDefend04" load="F" file="../images/archaniol/crangl34.png"/>
+			<texture name="AngelDefend05" load="F" file="../images/archaniol/crangl34.png"/>
+			<texture name="AngelDefend06" load="F" file="../images/archaniol/crangl34.png"/>
+			<texture name="AngelDefend07" load="F" file="../images/archaniol/crangl34.png"/>
+			<texture name="AngelDefend08" load="F" file="../images/archaniol/crangl33.png"/>
+			<texture name="AngelDefend09" load="F" file="../images/archaniol/crangl32.png"/>
+			<texture name="AngelDefend10" load="F" file="../images/archaniol/crangl31.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Chempion">
+		<Animation name="4">
+			<texture name="ChemMove4" load="F" file="../images/czempion/cchamp52.png"/>
+			<texture name="ChemMove5" load="F" file="../images/czempion/cchamp53.png"/>
+			<texture name="ChemMove6" load="F" file="../images/czempion/cchamp54.png"/>
+			<texture name="ChemMove7" load="F" file="../images/czempion/cchamp55.png"/>
+			<texture name="ChemMove8" load="F" file="../images/czempion/cchamp56.png"/>
+			<texture name="ChemMove9" load="F" file="../images/czempion/cchamp57.png"/>
+			<texture name="ChemMove10" load="F" file="../images/czempion/cchamp58.png"/>
+			<texture name="ChemMove11" load="F" file="../images/czempion/cchamp59.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="ChemIdle1" load="F" file="../images/czempion/cchamp40.png"/>
+			<texture name="ChemIdle2" load="F" file="../images/czempion/cchamp41.png"/>
+			<texture name="ChemIdle3" load="F" file="../images/czempion/cchamp42.png"/>
+			<texture name="ChemIdle4" load="F" file="../images/czempion/cchamp43.png"/>
+			<texture name="ChemIdle5" load="F" file="../images/czempion/cchamp44.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="ChemStand" load="F" file="../images/czempion/cchamp45.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="ChemActive" load="T" file="../images/czempion/cchamp45.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="ChemTurnLeft1" load="F" file="../images/czempion/cchamp71.png"/>
+			<texture name="ChemTurnLeft2" load="F" file="../images/czempion/cchamp72.png"/>
+			<texture name="ChemTurnLeft2" load="F" file="../images/czempion/cchamp73.png"/>
+			<texture name="ChemTurnRight1" load="F" flip="T" file="../images/czempion/cchamp73.png"/>
+			<texture name="ChemTurnRight2" load="F" flip="T" file="../images/czempion/cchamp72.png"/>
+			<texture name="ChemTurnRight2" load="F" flip="T" file="../images/czempion/cchamp71.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="ChemAttack1" load="F" file="../images/czempion/cchamp01.png"/>
+			<texture name="ChemAttack2" load="F" file="../images/czempion/cchamp02.png"/>
+			<texture name="ChemAttack3" load="F" file="../images/czempion/cchamp03.png"/>
+			<texture name="ChemAttack4" load="F" file="../images/czempion/cchamp04.png"/>
+			<texture name="ChemAttack5" load="F" file="../images/czempion/cchamp05.png"/>
+			<texture name="ChemAttack6" load="F" file="../images/czempion/cchamp06.png"/>
+			<texture name="ChemAttack7" load="F" file="../images/czempion/cchamp07.png"/>
+			<texture name="ChemAttack8" load="F" file="../images/czempion/cchamp08.png"/>
+			<texture name="ChemAttack9" load="F" file="../images/czempion/cchamp09.png"/>
+			<texture name="ChemAttack10" load="F" file="../images/czempion/cchamp10.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="ChemGetHit1" load="F" file="../images/czempion/cchamp67.png"/>
+			<texture name="ChemGetHit2" load="F" file="../images/czempion/cchamp70.png"/>
+			<texture name="ChemGetHit3" load="F" file="../images/czempion/cchamp69.png"/>
+			<texture name="ChemGetHit4" load="F" file="../images/czempion/cchamp68.png"/>
+			<texture name="ChemGetHit5" load="F" file="../images/czempion/cchamp67.png"/>
+			<texture name="ChemGetHit6" load="F" file="../images/czempion/cchamp66.png"/>
+			<texture name="ChemGetHit7" load="F" file="../images/czempion/cchamp65.png"/>
+			<texture name="ChemGetHit8" load="F" file="../images/czempion/cchamp64.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="ChemDie1" load="F" file="../images/czempion/cchamp26.png"/>
+			<texture name="ChemDie2" load="F" file="../images/czempion/cchamp27.png"/>
+			<texture name="ChemDie3" load="F" file="../images/czempion/cchamp28.png"/>
+			<texture name="ChemDie4" load="F" file="../images/czempion/cchamp29.png"/>
+			<texture name="ChemDie5" load="F" file="../images/czempion/cchamp30.png"/>
+			<texture name="ChemDie6" load="F" file="../images/czempion/cchamp31.png"/>
+			<texture name="ChemDie7" load="F" file="../images/czempion/cchamp32.png"/>
+			<texture name="ChemDie8" load="F" file="../images/czempion/cchamp33.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="ChemAttackD01" load="F" file="../images/czempion/cchamp20.png"/>
+			<texture name="ChemAttackD02" load="F" file="../images/czempion/cchamp21.png"/>
+			<texture name="ChemAttackD03" load="F" file="../images/czempion/cchamp23.png"/>
+			<texture name="ChemAttackD04" load="F" file="../images/czempion/cchamp25.png"/>
+			<texture name="ChemAttackD06" load="F" file="../images/czempion/cchamp24.png"/>
+			<texture name="ChemAttackD07" load="F" file="../images/czempion/cchamp23.png"/>
+			<texture name="ChemAttackD08" load="F" file="../images/czempion/cchamp22.png"/>
+			<texture name="ChemAttackD09" load="F" file="../images/czempion/cchamp21.png"/>
+			<texture name="ChemAttackD10" load="F" file="../images/czempion/cchamp20.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="ChemAttackU01" load="F" file="../images/czempion/cchamp01.png"/>
+			<texture name="ChemAttackU02" load="F" file="../images/czempion/cchamp11.png"/>
+			<texture name="ChemAttackU03" load="F" file="../images/czempion/cchamp12.png"/>
+			<texture name="ChemAttackU04" load="F" file="../images/czempion/cchamp13.png"/>
+			<texture name="ChemAttackU05" load="F" file="../images/czempion/cchamp14.png"/>
+			<texture name="ChemAttackU06" load="F" file="../images/czempion/cchamp15.png"/>
+			<texture name="ChemAttackU07" load="F" file="../images/czempion/cchamp16.png"/>
+			<texture name="ChemAttackU08" load="F" file="../images/czempion/cchamp17.png"/>
+			<texture name="ChemAttackU09" load="F" file="../images/czempion/cchamp18.png"/>
+			<texture name="ChemAttackU10" load="F" file="../images/czempion/cchamp19.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="ChemDefend01" load="F" file="../images/czempion/cchamp34.png"/>
+			<texture name="ChemDefend02" load="F" file="../images/czempion/cchamp35.png"/>
+			<texture name="ChemDefend03" load="F" file="../images/czempion/cchamp36.png"/>
+			<texture name="ChemDefend04" load="F" file="../images/czempion/cchamp37.png"/>
+			<texture name="ChemDefend05" load="F" file="../images/czempion/cchamp38.png"/>
+			<texture name="ChemDefend06" load="F" file="../images/czempion/cchamp39.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Gryf">
+		<Animation name="11">
+			<texture name="GrifMove2" load="F" file="../images/gryf/Crgrif07.png"/>
+			<texture name="GrifMove3" load="F" file="../images/gryf/Crgrif08.png"/>
+			<texture name="GrifMove4" load="F" file="../images/gryf/Crgrif09.png"/>
+		</Animation>
+		<Animation name="12">
+			<texture name="GrifMove9" load="F" file="../images/gryf/Crgrif09.png"/>
+			<texture name="GrifMove10" load="F" file="../images/gryf/Crgrif13.png"/>
+			<texture name="GrifMove11" load="F" file="../images/gryf/Crgrif14.png"/>
+		</Animation>
+		<Animation name="4">
+			<texture name="GrifMove5" load="F" file="../images/gryf/Crgrif11.png"/>
+			<texture name="GrifMove6" load="F" file="../images/gryf/Crgrif12.png"/>
+			<texture name="GrifMove7" load="F" file="../images/gryf/Crgrif11.png"/>
+			<texture name="GrifMove8" load="F" file="../images/gryf/Crgrif10.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="GrifIdle1" load="F" file="../images/gryf/Crgrif04.png"/>
+			<texture name="GrifIdle2" load="F" file="../images/gryf/Crgrif05.png"/>
+			<texture name="GrifIdle3" load="F" file="../images/gryf/Crgrif06.png"/>
+			<texture name="GrifIdle4" load="F" file="../images/gryf/Crgrif06.png"/>
+			<texture name="GrifIdle5" load="F" file="../images/gryf/Crgrif05.png"/>
+			<texture name="GrifIdle6" load="F" file="../images/gryf/Crgrif04.png"/>
+		</Animation>
+		<Animation name="1"frameT="5">
+			<texture name="GrifStand" load="F" file="../images/gryf/Crgrif01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="GrifActive" load="T" file="../images/gryf/Crgrif01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="GrifTurnLeft1" load="F" file="../images/gryf/Crgrif15.png"/>
+			<texture name="GrifTurnLeft2" load="F" file="../images/gryf/Crgrif16.png"/>
+			<texture name="GrifTurnRight1" load="F" flip="T" file="../images/gryf/Crgrif16.png"/>
+			<texture name="GrifTurnRight2" load="F" flip="T" file="../images/gryf/Crgrif15.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="GrifAttack1" load="F" file="../images/gryf/Crgrif27.png"/>
+			<texture name="GrifAttack2" load="F" file="../images/gryf/Crgrif28.png"/>
+			<texture name="GrifAttack3" load="F" file="../images/gryf/Crgrif29.png"/>
+			<texture name="GrifAttack4" load="F" file="../images/gryf/Crgrif30.png"/>
+			<texture name="GrifAttack5" load="F" file="../images/gryf/Crgrif31.png"/>
+			<texture name="GrifAttack6" load="F" file="../images/gryf/Crgrif32.png"/>
+			<texture name="GrifAttack7" load="F" file="../images/gryf/Crgrif33.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="GrifGetHit1" load="F" file="../images/gryf/Crgrif41.png"/>
+			<texture name="GrifGetHit2" load="F" file="../images/gryf/Crgrif42.png"/>
+			<texture name="GrifGetHit3" load="F" file="../images/gryf/Crgrif43.png"/>
+			<texture name="GrifGetHit4" load="F" file="../images/gryf/Crgrif44.png"/>
+			<texture name="GrifGetHit5" load="F" file="../images/gryf/Crgrif45.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="GrifDie1" load="F" file="../images/gryf/Crgrif46.png"/>
+			<texture name="GrifDie2" load="F" file="../images/gryf/Crgrif47.png"/>
+			<texture name="GrifDie3" load="F" file="../images/gryf/Crgrif48.png"/>
+			<texture name="GrifDie4" load="F" file="../images/gryf/Crgrif49.png"/>
+			<texture name="GrifDie5" load="F" file="../images/gryf/Crgrif50.png"/>
+			<texture name="GrifDie6" load="F" file="../images/gryf/Crgrif51.png"/>
+			<texture name="GrifDie7" load="F" file="../images/gryf/Crgrif52.png"/>
+			<texture name="GrifDie8" load="F" file="../images/gryf/Crgrif53.png"/>
+		</Animation>
+		<Animation name="DEFEND">
+			<texture name="GrifDefend1" load="F" file="../images/gryf/Crgrif17.png"/>
+			<texture name="GrifDefend2" load="F" file="../images/gryf/Crgrif18.png"/>
+			<texture name="GrifDefend3" load="F" file="../images/gryf/Crgrif19.png"/>
+			<texture name="GrifDefend4" load="F" file="../images/gryf/Crgrif18.png"/>
+			<texture name="GrifDefend5" load="F" file="../images/gryf/Crgrif17.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN">
+			<texture name="GrifAttackD01" load="F" file="../images/gryf/Crgrif34.png"/>
+			<texture name="GrifAttackD02" load="F" file="../images/gryf/Crgrif35.png"/>
+			<texture name="GrifAttackD03" load="F" file="../images/gryf/Crgrif36.png"/>
+			<texture name="GrifAttackD04" load="F" file="../images/gryf/Crgrif37.png"/>
+			<texture name="GrifAttackD06" load="F" file="../images/gryf/Crgrif38.png"/>
+			<texture name="GrifAttackD07" load="F" file="../images/gryf/Crgrif39.png"/>
+			<texture name="GrifAttackD11" load="F" file="../images/gryf/Crgrif40.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP">
+			<texture name="GrifAttackU01" load="F" file="../images/gryf/Crgrif20.png"/>
+			<texture name="GrifAttackU01" load="F" file="../images/gryf/Crgrif21.png"/>
+			<texture name="GrifAttackU02" load="F" file="../images/gryf/Crgrif22.png"/>
+			<texture name="GrifAttackU03" load="F" file="../images/gryf/Crgrif23.png"/>
+			<texture name="GrifAttackU04" load="F" file="../images/gryf/Crgrif24.png"/>
+			<texture name="GrifAttackU05" load="F" file="../images/gryf/Crgrif25.png"/>
+			<texture name="GrifAttackU06" load="F" file="../images/gryf/Crgrif26.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Mnich">
+		<Animation name="4">
+			<texture name="MonkMove2" load="F" file="../images/mnich/CZEALT09.png"/>
+			<texture name="MonkMove3" load="F" file="../images/mnich/CZEALT10.png"/>
+			<texture name="MonkMove4" load="F" file="../images/mnich/CZEALT11.png"/>
+			<texture name="MonkMove5" load="F" file="../images/mnich/CZEALT12.png"/>
+			<texture name="MonkMove6" load="F" file="../images/mnich/CZEALT13.png"/>
+			<texture name="MonkMove7" load="F" file="../images/mnich/CZEALT14.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="MonkIdle1" load="F" file="../images/mnich/CZEALT04.png"/>
+			<texture name="MonkIdle2" load="F" file="../images/mnich/CZEALT05.png"/>
+			<texture name="MonkIdle3" load="F" file="../images/mnich/CZEALT06.png"/>
+			<texture name="MonkIdle4" load="F" file="../images/mnich/CZEALT07.png"/>
+			<texture name="MonkIdle5" load="F" file="../images/mnich/CZEALT07.png"/>
+			<texture name="MonkIdle6" load="F" file="../images/mnich/CZEALT06.png"/>
+			<texture name="MonkIdle7" load="F" file="../images/mnich/CZEALT05.png"/>
+			<texture name="MonkIdle8" load="F" file="../images/mnich/CZEALT04.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="MonkStand" load="F" file="../images/mnich/CZEALT01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="MonkActive" load="T" file="../images/mnich/CZEALT01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="MonkTurnLeft1" load="F" file="../images/mnich/CZEALT16.png"/>
+			<texture name="MonkTurnRight2" load="F" flip="T" file="../images/mnich/CZEALT16.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="MonkAttack1" load="F" file="../images/mnich/CZEALT28.png"/>
+			<texture name="MonkAttack2" load="F" file="../images/mnich/CZEALT29.png"/>
+			<texture name="MonkAttack3" load="F" file="../images/mnich/CZEALT30.png"/>
+			<texture name="MonkAttack4" load="F" file="../images/mnich/CZEALT31.png"/>
+			<texture name="MonkAttack5" load="F" file="../images/mnich/CZEALT32.png"/>
+			<texture name="MonkAttack6" load="F" file="../images/mnich/CZEALT33.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="MonkGetHit1" load="F" file="../images/mnich/CZEALT41.png"/>
+			<texture name="MonkGetHit2" load="F" file="../images/mnich/CZEALT42.png"/>
+			<texture name="MonkGetHit3" load="F" file="../images/mnich/CZEALT43.png"/>
+			<texture name="MonkGetHit4" load="F" file="../images/mnich/CZEALT44.png"/>
+			<texture name="MonkGetHit5" load="F" file="../images/mnich/CZEALT45.png"/>
+			<texture name="MonkGetHit6" load="F" file="../images/mnich/CZEALT46.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="MonkDie1" load="F" file="../images/mnich/CZEALT41.png"/>
+			<texture name="MonkDie2" load="F" file="../images/mnich/CZEALT42.png"/>
+			<texture name="MonkDie3" load="F" file="../images/mnich/CZEALT43.png"/>
+			<texture name="MonkDie4" load="F" file="../images/mnich/CZEALT44.png"/>
+			<texture name="MonkDie1" load="F" file="../images/mnich/CZEALT47.png"/>
+			<texture name="MonkDie2" load="F" file="../images/mnich/CZEALT48.png"/>
+			<texture name="MonkDie3" load="F" file="../images/mnich/CZEALT49.png"/>
+			<texture name="MonkDie4" load="F" file="../images/mnich/CZEALT50.png"/>
+			<texture name="MonkDie3" load="F" file="../images/mnich/CZEALT51.png"/>
+			<texture name="MonkDie4" load="F" file="../images/mnich/CZEALT52.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="MonkAttackD01" load="F" file="../images/mnich/CZEALT34.png"/>
+			<texture name="MonkAttackD02" load="F" file="../images/mnich/CZEALT35.png"/>
+			<texture name="MonkAttackD03" load="F" file="../images/mnich/CZEALT36.png"/>
+			<texture name="MonkAttackD04" load="F" file="../images/mnich/CZEALT37.png"/>
+			<texture name="MonkAttackD06" load="F" file="../images/mnich/CZEALT38.png"/>
+			<texture name="MonkAttackD07" load="F" file="../images/mnich/CZEALT39.png"/>
+			<texture name="MonkAttackD09" load="F" file="../images/mnich/CZEALT40.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="MonkAttackU01" load="F" file="../images/mnich/CZEALT21.png"/>
+			<texture name="MonkAttackU02" load="F" file="../images/mnich/CZEALT22.png"/>
+			<texture name="MonkAttackU03" load="F" file="../images/mnich/CZEALT23.png"/>
+			<texture name="MonkAttackU04" load="F" file="../images/mnich/CZEALT24.png"/>
+			<texture name="MonkAttackU05" load="F" file="../images/mnich/CZEALT25.png"/>
+			<texture name="MonkAttackU06" load="F" file="../images/mnich/CZEALT26.png"/>
+			<texture name="MonkAttackU07" load="F" file="../images/mnich/CZEALT27.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="MonkDefend01" load="F" file="../images/mnich/CZEALT16.png"/>
+			<texture name="MonkDefend02" load="F" file="../images/mnich/CZEALT17.png"/>
+			<texture name="MonkDefend03" load="F" file="../images/mnich/CZEALT18.png"/>
+			<texture name="MonkDefend04" load="F" file="../images/mnich/CZEALT19.png"/>
+			<texture name="MonkDefend05" load="F" file="../images/mnich/CZEALT20.png"/>
+		</Animation>
+		<Animation name="SHOOT">
+			<texture name="MonkShootS01" load="F" file="../images/mnich/CZEALT28.png"/>
+			<texture name="MonkShootS02" load="F" file="../images/mnich/CZEALT29.png"/>
+			<texture name="MonkShootS03" load="F" file="../images/mnich/CZEALT56.png"/>
+			<texture name="MonkShootS04" load="F" file="../images/mnich/CZEALT56.png"/>
+			<texture name="MonkShootS05" load="F" file="../images/mnich/CZEALT57.png"/>
+			<texture name="MonkShootS06" load="F" file="../images/mnich/CZEALT57.png"/>
+			<texture name="MonkShootS07" load="F" file="../images/mnich/CZEALT57.png"/>
+			<texture name="MonkShootS08" load="F" file="../images/mnich/CZEALT57.png"/>
+			<texture name="MonkShootS09" load="F" file="../images/mnich/CZEALT57.png"/>
+			<texture name="MonkShootS10" load="F" file="../images/mnich/CZEALT28.png"/>
+			<texture name="MonkShootS11" load="F" file="../images/mnich/CZEALT32.png"/>
+			<texture name="MonkShootS12" load="F" file="../images/mnich/CZEALT33.png"/>
+		</Animation>
+		<Animation name="SHOOT_UP">
+			<texture name="MonkShootU01" load="F" file="../images/mnich/CZEALT21.png"/>
+			<texture name="MonkShootU02" load="F" file="../images/mnich/CZEALT22.png"/>
+			<texture name="MonkShootU03" load="F" file="../images/mnich/CZEALT53.png"/>
+			<texture name="MonkShootU04" load="F" file="../images/mnich/CZEALT54.png"/>
+			<texture name="MonkShootU05" load="F" file="../images/mnich/CZEALT55.png"/>
+			<texture name="MonkShootU06" load="F" file="../images/mnich/CZEALT55.png"/>
+			<texture name="MonkShootU07" load="F" file="../images/mnich/CZEALT55.png"/>
+			<texture name="MonkShootU08" load="F" file="../images/mnich/CZEALT55.png"/>
+			<texture name="MonkShootU09" load="F" file="../images/mnich/CZEALT55.png"/>
+			<texture name="MonkShootU10" load="F" file="../images/mnich/CZEALT26.png"/>
+			<texture name="MonkShootU11" load="F" file="../images/mnich/CZEALT27.png"/>
+		</Animation>
+		<Animation name="SHOOT_DOWN">
+			<texture name="MonkShootD01" load="F" file="../images/mnich/CZEALT34.png"/>
+			<texture name="MonkShootD02" load="F" file="../images/mnich/CZEALT35.png"/>
+			<texture name="MonkShootD03" load="F" file="../images/mnich/CZEALT59.png"/>
+			<texture name="MonkShootD04" load="F" file="../images/mnich/CZEALT60.png"/>
+			<texture name="MonkShootD05" load="F" file="../images/mnich/CZEALT61.png"/>
+			<texture name="MonkShootD06" load="F" file="../images/mnich/CZEALT61.png"/>
+			<texture name="MonkShootD07" load="F" file="../images/mnich/CZEALT61.png"/>
+			<texture name="MonkShootD08" load="F" file="../images/mnich/CZEALT61.png"/>
+			<texture name="MonkShootD09" load="F" file="../images/mnich/CZEALT61.png"/>
+			<texture name="MonkShootD10" load="F" file="../images/mnich/CZEALT39.png"/>
+			<texture name="MonkShootD11" load="F" file="../images/mnich/CZEALT40.png"/>
+		</Animation>
+	
+	</AnimationSet>
+	<AnimationSet name="Zbrojny">
+		<Animation name="4">
+			<texture name="CrusMove3" load="F" file="../images/krzyzowiec/ccrusd36.png"/>
+			<texture name="CrusMove4" load="F" file="../images/krzyzowiec/ccrusd37.png"/>
+			<texture name="CrusMove5" load="F" file="../images/krzyzowiec/ccrusd38.png"/>
+			<texture name="CrusMove6" load="F" file="../images/krzyzowiec/ccrusd39.png"/>
+			<texture name="CrusMove7" load="F" file="../images/krzyzowiec/ccrusd40.png"/>
+			<texture name="CrusMove3" load="F" file="../images/krzyzowiec/ccrusd41.png"/>
+			<texture name="CrusMove4" load="F" file="../images/krzyzowiec/ccrusd42.png"/>
+			<texture name="CrusMove5" load="F" file="../images/krzyzowiec/ccrusd43.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="CrusIdle1" load="F" file="../images/krzyzowiec/ccrusd26.png"/>
+			<texture name="CrusIdle2" load="F" file="../images/krzyzowiec/ccrusd27.png"/>
+			<texture name="CrusIdle3" load="F" file="../images/krzyzowiec/ccrusd28.png"/>
+			<texture name="CrusIdle4" load="F" file="../images/krzyzowiec/ccrusd29.png"/>
+			<texture name="CrusIdle5" load="F" file="../images/krzyzowiec/ccrusd29.png"/>
+			<texture name="CrusIdle6" load="F" file="../images/krzyzowiec/ccrusd28.png"/>
+			<texture name="CrusIdle5" load="F" file="../images/krzyzowiec/ccrusd27.png"/>
+			<texture name="CrusIdle6" load="F" file="../images/krzyzowiec/ccrusd26.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="CrusStand" load="F" file="../images/krzyzowiec/ccrusd54.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="CrusActive" load="T" file="../images/krzyzowiec/ccrusd54.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="CrusTurnLeft1" load="F" file="../images/krzyzowiec/ccrusd52.png"/>
+			<texture name="CrusTurnLeft2" load="F" file="../images/krzyzowiec/ccrusd53.png"/>
+			<texture name="CrusTurnRight2" load="F" flip="T" file="../images/krzyzowiec/ccrusd53.png"/>
+			<texture name="CrusTurnRight1" load="F" flip="T" file="../images/krzyzowiec/ccrusd52.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="CrusAttack1" load="F" file="../images/krzyzowiec/ccrusd01.png"/>
+			<texture name="CrusAttack2" load="F" file="../images/krzyzowiec/ccrusd02.png"/>
+			<texture name="CrusAttack3" load="F" file="../images/krzyzowiec/ccrusd03.png"/>
+			<texture name="CrusAttack4" load="F" file="../images/krzyzowiec/ccrusd04.png"/>
+			<texture name="CrusAttack5" load="F" file="../images/krzyzowiec/ccrusd05.png"/>
+			<texture name="CrusAttack6" load="F" file="../images/krzyzowiec/ccrusd06.png"/>
+			<texture name="CrusAttack7" load="F" file="../images/krzyzowiec/ccrusd07.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="CrusGetHit1" load="F" file="../images/krzyzowiec/ccrusd46.png"/>
+			<texture name="CrusGetHit2" load="F" file="../images/krzyzowiec/ccrusd47.png"/>
+			<texture name="CrusGetHit3" load="F" file="../images/krzyzowiec/ccrusd48.png"/>
+			<texture name="CrusGetHit4" load="F" file="../images/krzyzowiec/ccrusd49.png"/>
+			<texture name="CrusGetHit5" load="F" file="../images/krzyzowiec/ccrusd50.png"/>
+			<texture name="CrusGetHit6" load="F" file="../images/krzyzowiec/ccrusd51.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="CrusDie1" load="F" file="../images/krzyzowiec/ccrusd16.png"/>
+			<texture name="CrusDie2" load="F" file="../images/krzyzowiec/ccrusd17.png"/>
+			<texture name="CrusDie3" load="F" file="../images/krzyzowiec/ccrusd18.png"/>
+			<texture name="CrusDie4" load="F" file="../images/krzyzowiec/ccrusd19.png"/>
+			<texture name="CrusDie5" load="F" file="../images/krzyzowiec/ccrusd20.png"/>
+			<texture name="CrusDie6" load="F" file="../images/krzyzowiec/ccrusd21.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="CrusAttackD01" load="F" file="../images/krzyzowiec/ccrusd01.png"/>
+			<texture name="CrusAttackD02" load="F" file="../images/krzyzowiec/ccrusd02.png"/>
+			<texture name="CrusAttackD03" load="F" file="../images/krzyzowiec/ccrusd12.png"/>
+			<texture name="CrusAttackD04" load="F" file="../images/krzyzowiec/ccrusd13.png"/>
+			<texture name="CrusAttackD06" load="F" file="../images/krzyzowiec/ccrusd14.png"/>
+			<texture name="CrusAttackD07" load="F" file="../images/krzyzowiec/ccrusd15.png"/>
+			<texture name="CrusAttackD08" load="F" file="../images/krzyzowiec/ccrusd07.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="CrusAttackU01" load="F" file="../images/krzyzowiec/ccrusd01.png"/>
+			<texture name="CrusAttackU02" load="F" file="../images/krzyzowiec/ccrusd02.png"/>
+			<texture name="CrusAttackU03" load="F" file="../images/krzyzowiec/ccrusd08.png"/>
+			<texture name="CrusAttackU04" load="F" file="../images/krzyzowiec/ccrusd09.png"/>
+			<texture name="CrusAttackU05" load="F" file="../images/krzyzowiec/ccrusd10.png"/>
+			<texture name="CrusAttackU06" load="F" file="../images/krzyzowiec/ccrusd11.png"/>
+			<texture name="CrusAttackU07" load="F" file="../images/krzyzowiec/ccrusd07.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="CrusDefend01" load="F" file="../images/krzyzowiec/ccrusd22.png"/>
+			<texture name="CrusDefend02" load="F" file="../images/krzyzowiec/ccrusd23.png"/>
+			<texture name="CrusDefend03" load="F" file="../images/krzyzowiec/ccrusd24.png"/>
+			<texture name="CrusDefend04" load="F" file="../images/krzyzowiec/ccrusd25.png"/>
+			<texture name="CrusDefend05" load="F" file="../images/krzyzowiec/ccrusd25.png"/>
+			<texture name="CrusDefend06" load="F" file="../images/krzyzowiec/ccrusd25.png"/>
+			<texture name="CrusDefend07" load="F" file="../images/krzyzowiec/ccrusd25.png"/>
+			<texture name="CrusDefend08" load="F" file="../images/krzyzowiec/ccrusd25.png"/>
+			<texture name="CrusDefend09" load="F" file="../images/krzyzowiec/ccrusd23.png"/>
+			<texture name="CrusDefend10" load="F" file="../images/krzyzowiec/ccrusd22.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Hydra">
+		<Animation name="4">
+			<texture name="HydraMove3" load="F" file="../images/hydra/cchydr40.png"/>
+			<texture name="HydraMove4" load="F" file="../images/hydra/cchydr41.png"/>
+			<texture name="HydraMove5" load="F" file="../images/hydra/cchydr42.png"/>
+			<texture name="HydraMove6" load="F" file="../images/hydra/cchydr43.png"/>
+			<texture name="HydraMove1" load="F" file="../images/hydra/cchydr44.png"/>
+			<texture name="HydraMove2" load="F" file="../images/hydra/cchydr45.png"/>
+			<texture name="HydraMove3" load="F" file="../images/hydra/cchydr46.png"/>
+			<texture name="HydraMove4" load="F" file="../images/hydra/cchydr47.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="HydraIdle1" load="F" file="../images/hydra/cchydr28.png"/>
+			<texture name="HydraIdle2" load="F" file="../images/hydra/cchydr29.png"/>
+			<texture name="HydraIdle3" load="F" file="../images/hydra/cchydr30.png"/>
+			<texture name="HydraIdle4" load="F" file="../images/hydra/cchydr31.png"/>
+			<texture name="HydraIdle3" load="F" file="../images/hydra/cchydr32.png"/>
+			<texture name="HydraIdle4" load="F" file="../images/hydra/cchydr33.png"/>
+		</Animation>       
+		<Animation name="1"frameT="3">
+			<texture name="HydraStand" load="F" file="../images/hydra/cchydr58.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="HydraActive" load="T" file="../images/hydra/cchydr58.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="HydraTurnLeft1" load="F" file="../images/hydra/cchydr56.png"/>
+			<texture name="HydraTurnLeft2" load="F" file="../images/hydra/cchydr57.png"/>
+			<texture name="HydraTurnRight1" load="F" flip="T" file="../images/hydra/cchydr57.png"/>
+			<texture name="HydraTurnRight2" load="F" flip="T" file="../images/hydra/cchydr56.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="HydraAttackS1" load="F" file="../images/hydra/cchydr01.png"/>
+			<texture name="HydraAttackS2" load="F" file="../images/hydra/cchydr02.png"/>
+			<texture name="HydraAttackS3" load="F" file="../images/hydra/cchydr03.png"/>
+			<texture name="HydraAttackS4" load="F" file="../images/hydra/cchydr04.png"/>
+			<texture name="HydraAttackS5" load="F" file="../images/hydra/cchydr05.png"/>
+			<texture name="HydraAttackS6" load="F" file="../images/hydra/cchydr06.png"/>
+			<texture name="HydraAttackS1" load="F" file="../images/hydra/cchydr07.png"/>
+			<texture name="HydraAttackS2" load="F" file="../images/hydra/cchydr08.png"/>
+			<texture name="HydraAttackS3" load="F" file="../images/hydra/cchydr09.png"/>
+			<texture name="HydraAttackS4" load="F" file="../images/hydra/cchydr10.png"/>
+			<texture name="HydraAttackS5" load="F" file="../images/hydra/cchydr11.png"/>
+			<texture name="HydraAttackS6" load="F" file="../images/hydra/cchydr12.png"/>
+			<texture name="HydraAttackS2" load="F" file="../images/hydra/cchydr13.png"/>
+			<texture name="HydraAttackS3" load="F" file="../images/hydra/cchydr14.png"/>
+			<texture name="HydraAttackS4" load="F" file="../images/hydra/cchydr15.png"/>
+			<texture name="HydraAttackS5" load="F" file="../images/hydra/cchydr16.png"/>
+			<texture name="HydraAttackS6" load="F" file="../images/hydra/cchydr17.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="HydraGetHit1" load="F" file="../images/hydra/cchydr50.png"/>
+			<texture name="HydraGetHit2" load="F" file="../images/hydra/cchydr51.png"/>
+			<texture name="HydraGetHit3" load="F" file="../images/hydra/cchydr52.png"/>
+			<texture name="HydraGetHit4" load="F" file="../images/hydra/cchydr53.png"/>
+			<texture name="HydraGetHit5" load="F" file="../images/hydra/cchydr54.png"/>
+			<texture name="HydraGetHit6" load="F" file="../images/hydra/cchydr55.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="HydraDie1" load="F" file="../images/hydra/cchydr50.png"/>
+			<texture name="HydraDie2" load="F" file="../images/hydra/cchydr51.png"/>
+			<texture name="HydraDie3" load="F" file="../images/hydra/cchydr18.png"/>
+			<texture name="HydraDie4" load="F" file="../images/hydra/cchydr19.png"/>
+			<texture name="HydraDie5" load="F" file="../images/hydra/cchydr20.png"/>
+			<texture name="HydraDie6" load="F" file="../images/hydra/cchydr21.png"/>
+			<texture name="HydraDie7" load="F" file="../images/hydra/cchydr22.png"/>
+			<texture name="HydraDie8" load="F" file="../images/hydra/cchydr23.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="HydraAttackD1" load="F" file="../images/hydra/cchydr01.png"/>
+			<texture name="HydraAttackD2" load="F" file="../images/hydra/cchydr02.png"/>
+			<texture name="HydraAttackD3" load="F" file="../images/hydra/cchydr03.png"/>
+			<texture name="HydraAttackD4" load="F" file="../images/hydra/cchydr04.png"/>
+			<texture name="HydraAttackD5" load="F" file="../images/hydra/cchydr05.png"/>
+			<texture name="HydraAttackD6" load="F" file="../images/hydra/cchydr06.png"/>
+			<texture name="HydraAttackD1" load="F" file="../images/hydra/cchydr07.png"/>
+			<texture name="HydraAttackD2" load="F" file="../images/hydra/cchydr08.png"/>
+			<texture name="HydraAttackD3" load="F" file="../images/hydra/cchydr09.png"/>
+			<texture name="HydraAttackD4" load="F" file="../images/hydra/cchydr10.png"/>
+			<texture name="HydraAttackD5" load="F" file="../images/hydra/cchydr11.png"/>
+			<texture name="HydraAttackD6" load="F" file="../images/hydra/cchydr12.png"/>
+			<texture name="HydraAttackD2" load="F" file="../images/hydra/cchydr13.png"/>
+			<texture name="HydraAttackD3" load="F" file="../images/hydra/cchydr14.png"/>
+			<texture name="HydraAttackD4" load="F" file="../images/hydra/cchydr15.png"/>
+			<texture name="HydraAttackD5" load="F" file="../images/hydra/cchydr16.png"/>
+			<texture name="HydraAttackD6" load="F" file="../images/hydra/cchydr17.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="HydraAttackU1" load="F" file="../images/hydra/cchydr01.png"/>
+			<texture name="HydraAttackU2" load="F" file="../images/hydra/cchydr02.png"/>
+			<texture name="HydraAttackU3" load="F" file="../images/hydra/cchydr03.png"/>
+			<texture name="HydraAttackU4" load="F" file="../images/hydra/cchydr04.png"/>
+			<texture name="HydraAttackU5" load="F" file="../images/hydra/cchydr05.png"/>
+			<texture name="HydraAttackU6" load="F" file="../images/hydra/cchydr06.png"/>
+			<texture name="HydraAttackU1" load="F" file="../images/hydra/cchydr07.png"/>
+			<texture name="HydraAttackU2" load="F" file="../images/hydra/cchydr08.png"/>
+			<texture name="HydraAttackU3" load="F" file="../images/hydra/cchydr09.png"/>
+			<texture name="HydraAttackU4" load="F" file="../images/hydra/cchydr10.png"/>
+			<texture name="HydraAttackU5" load="F" file="../images/hydra/cchydr11.png"/>
+			<texture name="HydraAttackU6" load="F" file="../images/hydra/cchydr12.png"/>
+			<texture name="HydraAttackU2" load="F" file="../images/hydra/cchydr13.png"/>
+			<texture name="HydraAttackU3" load="F" file="../images/hydra/cchydr14.png"/>
+			<texture name="HydraAttackU4" load="F" file="../images/hydra/cchydr15.png"/>
+			<texture name="HydraAttackU5" load="F" file="../images/hydra/cchydr16.png"/>
+			<texture name="HydraAttackU6" load="F" file="../images/hydra/cchydr17.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="HydraDefend01" load="F" file="../images/hydra/cchydr24.png"/>
+			<texture name="HydraDefend02" load="F" file="../images/hydra/cchydr25.png"/>
+			<texture name="HydraDefend03" load="F" file="../images/hydra/cchydr26.png"/>
+			<texture name="HydraDefend04" load="F" file="../images/hydra/cchydr27.png"/>
+			<texture name="HydraDefend05" load="F" file="../images/hydra/cchydr27.png"/>
+			<texture name="HydraDefend06" load="F" file="../images/hydra/cchydr27.png"/>
+			<texture name="HydraDefend07" load="F" file="../images/hydra/cchydr27.png"/>
+			<texture name="HydraDefend08" load="F" file="../images/hydra/cchydr26.png"/>
+			<texture name="HydraDefend09" load="F" file="../images/hydra/cchydr25.png"/>
+			<texture name="HydraDefend10" load="F" file="../images/hydra/cchydr24.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Oslizg">
+		<Animation name="11">
+			<texture name="OslStartMove1" load="F" file="../images/oslizg/CDRFIR10.png"/>
+		</Animation>
+		<Animation name="4">
+			<texture name="OslMove2" load="F" file="../images/oslizg/CDRFIR11.png"/>
+			<texture name="OslMove3" load="F" file="../images/oslizg/CDRFIR12.png"/>
+			<texture name="OslMove4" load="F" file="../images/oslizg/CDRFIR13.png"/>
+			<texture name="OslMove5" load="F" file="../images/oslizg/CDRFIR14.png"/>
+			<texture name="OslMove6" load="F" file="../images/oslizg/CDRFIR15.png"/>
+			<texture name="OslMove7" load="F" file="../images/oslizg/CDRFIR16.png"/>
+		</Animation>
+		<Animation name="12">
+			<texture name="OslStopMove1" load="F" file="../images/oslizg/CDRFIR17.png.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="OslIdle1" load="F" file="../images/oslizg/CDRFIR06.png"/>
+			<texture name="OslIdle2" load="F" file="../images/oslizg/CDRFIR07.png"/>
+			<texture name="OslIdle3" load="F" file="../images/oslizg/CDRFIR08.png"/>
+			<texture name="OslIdle4" load="F" file="../images/oslizg/CDRFIR09.png"/>
+		</Animation>       
+		<Animation name="1" frameT="5">
+			<texture name="OslStand" load="F" file="../images/oslizg/CDRFIR01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="OslActive" load="T" file="../images/oslizg/CDRFIR01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="OslTurnLeft1" load="F" file="../images/oslizg/CDRFIR18.png"/>
+			<texture name="OslTurnLeft2" load="F" file="../images/oslizg/CDRFIR19.png"/>
+			<texture name="OslTurnRight1" load="F" flip="T" file="../images/oslizg/CDRFIR19.png"/>
+			<texture name="OslTurnRight2" load="F" flip="T" file="../images/oslizg/CDRFIR18.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="OslAttackS1" load="F" file="../images/oslizg/CDRFIR32.png"/>
+			<texture name="OslAttackS2" load="F" file="../images/oslizg/CDRFIR33.png"/>
+			<texture name="OslAttackS3" load="F" file="../images/oslizg/CDRFIR34.png"/>
+			<texture name="OslAttackS4" load="F" file="../images/oslizg/CDRFIR35.png"/>
+			<texture name="OslAttackS5" load="F" file="../images/oslizg/CDRFIR36.png"/>
+			<texture name="OslAttackS6" load="F" file="../images/oslizg/CDRFIR37.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="OslGetHit1" load="F" file="../images/oslizg/CDRFIR44.png"/>
+			<texture name="OslGetHit2" load="F" file="../images/oslizg/CDRFIR45.png"/>
+			<texture name="OslGetHit3" load="F" file="../images/oslizg/CDRFIR46.png"/>
+			<texture name="OslGetHit4" load="F" file="../images/oslizg/CDRFIR47.png"/>
+			<texture name="OslGetHit5" load="F" file="../images/oslizg/CDRFIR48.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="OslDie1" load="F" file="../images/oslizg/CDRFIR49.png"/>
+			<texture name="OslDie2" load="F" file="../images/oslizg/CDRFIR50.png"/>
+			<texture name="OslDie3" load="F" file="../images/oslizg/CDRFIR51.png"/>
+			<texture name="OslDie4" load="F" file="../images/oslizg/CDRFIR52.png"/>
+			<texture name="OslDie5" load="F" file="../images/oslizg/CDRFIR53.png"/>
+			<texture name="OslDie6" load="F" file="../images/oslizg/CDRFIR54.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="CrusAttackD01" load="F" file="../images/oslizg/CDRFIR38.png"/>
+			<texture name="CrusAttackD02" load="F" file="../images/oslizg/CDRFIR39.png"/>
+			<texture name="CrusAttackD03" load="F" file="../images/oslizg/CDRFIR40.png"/>
+			<texture name="CrusAttackD04" load="F" file="../images/oslizg/CDRFIR41.png"/>
+			<texture name="CrusAttackD06" load="F" file="../images/oslizg/CDRFIR42.png"/>
+			<texture name="CrusAttackD07" load="F" file="../images/oslizg/CDRFIR43.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="OslAttackU01" load="F" file="../images/oslizg/CDRFIR26.png"/>
+			<texture name="OslAttackU02" load="F" file="../images/oslizg/CDRFIR27.png"/>
+			<texture name="OslAttackU03" load="F" file="../images/oslizg/CDRFIR28.png"/>
+			<texture name="OslAttackU04" load="F" file="../images/oslizg/CDRFIR29.png"/>
+			<texture name="OslAttackU05" load="F" file="../images/oslizg/CDRFIR30.png"/>
+			<texture name="OslAttackU06" load="F" file="../images/oslizg/CDRFIR31.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="OslDefend01" load="F" file="../images/oslizg/CDRFIR20.png"/>
+			<texture name="OslDefend02" load="F" file="../images/oslizg/CDRFIR21.png"/>
+			<texture name="OslDefend03" load="F" file="../images/oslizg/CDRFIR22.png"/>
+			<texture name="OslDefend04" load="F" file="../images/oslizg/CDRFIR23.png"/>
+			<texture name="OslDefend05" load="F" file="../images/oslizg/CDRFIR24.png"/>
+			<texture name="OslDefend06" load="F" file="../images/oslizg/CDRFIR25.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Gnoll">
+		<Animation name="4">
+			<texture name="GnollMove3" load="F" file="../images/gnol/cgnolm40.png"/>
+			<texture name="GnollMove4" load="F" file="../images/gnol/cgnolm41.png"/>
+			<texture name="GnollMove5" load="F" file="../images/gnol/cgnolm42.png"/>
+			<texture name="GnollMove6" load="F" file="../images/gnol/cgnolm43.png"/>
+			<texture name="GnollMove7" load="F" file="../images/gnol/cgnolm44.png"/>
+			<texture name="GnollMove8" load="F" file="../images/gnol/cgnolm45.png"/>
+			<texture name="GnollMove9" load="F" file="../images/gnol/cgnolm46.png"/>
+			<texture name="GnollMove10" load="F" file="../images/gnol/cgnolm47.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="GnollIdle1" load="F" file="../images/gnol/cgnolm29.png"/>
+			<texture name="GnollIdle2" load="F" file="../images/gnol/cgnolm30.png"/>
+			<texture name="GnollIdle3" load="F" file="../images/gnol/cgnolm31.png"/>
+			<texture name="GnollIdle4" load="F" file="../images/gnol/cgnolm32.png"/>
+			<texture name="GnollIdle5" load="F" file="../images/gnol/cgnolm33.png"/>
+			<texture name="GnollIdle6" load="F" file="../images/gnol/cgnolm32.png"/>
+			<texture name="GnollIdle7" load="F" file="../images/gnol/cgnolm33.png"/>
+			<texture name="GnollIdle6" load="F" file="../images/gnol/cgnolm32.png"/>
+			<texture name="GnollIdle7" load="F" file="../images/gnol/cgnolm33.png"/>
+			<texture name="GnollIdle6" load="F" file="../images/gnol/cgnolm32.png"/>
+			<texture name="GnollIdle7" load="F" file="../images/gnol/cgnolm33.png"/>
+			<texture name="GnollIdle6" load="F" file="../images/gnol/cgnolm32.png"/>
+			<texture name="GnollIdle7" load="F" file="../images/gnol/cgnolm31.png"/>
+			<texture name="GnollIdle6" load="F" file="../images/gnol/cgnolm30.png"/>
+			<texture name="GnollIdle7" load="F" file="../images/gnol/cgnolm29.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="GnollStand" load="F" file="../images/gnol/cgnolm58.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="GnollActive" load="T" file="../images/gnol/cgnolm58.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="GnollTurnLeft1" load="F" file="../images/gnol/cgnolm56.png"/>
+			<texture name="GnollTurnLeft2" load="F" file="../images/gnol/cgnolm57.png"/>
+			<texture name="GnollTurnRight1" load="F" flip="T" file="../images/gnol/cgnolm57.png"/>
+			<texture name="GnollTurnRight2" load="F" flip="T" file="../images/gnol/cgnolm56.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="GnollAttack1" load="F" file="../images/gnol/cgnolm01.png"/>
+			<texture name="GnollAttack2" load="F" file="../images/gnol/cgnolm02.png"/>
+			<texture name="GnollAttack3" load="F" file="../images/gnol/cgnolm03.png"/>
+			<texture name="GnollAttack4" load="F" file="../images/gnol/cgnolm04.png"/>
+			<texture name="GnollAttack5" load="F" file="../images/gnol/cgnolm05.png"/>
+			<texture name="GnollAttack6" load="F" file="../images/gnol/cgnolm06.png"/>
+			<texture name="GnollAttack5" load="F" file="../images/gnol/cgnolm07.png"/>
+			<texture name="GnollAttack6" load="F" file="../images/gnol/cgnolm08.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="GnollGetHit1" load="F" file="../images/gnol/cgnolm50.png"/>
+			<texture name="GnollGetHit2" load="F" file="../images/gnol/cgnolm51.png"/>
+			<texture name="GnollGetHit3" load="F" file="../images/gnol/cgnolm52.png"/>
+			<texture name="GnollGetHit4" load="F" file="../images/gnol/cgnolm53.png"/>
+			<texture name="GnollGetHit5" load="F" file="../images/gnol/cgnolm54.png"/>
+			<texture name="GnollGetHit6" load="F" file="../images/gnol/cgnolm55.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="GnollDie1" load="F" file="../images/gnol/cgnolm19.png"/>
+			<texture name="GnollDie2" load="F" file="../images/gnol/cgnolm20.png"/>
+			<texture name="GnollDie3" load="F" file="../images/gnol/cgnolm21.png"/>
+			<texture name="GnollDie4" load="F" file="../images/gnol/cgnolm22.png"/>
+			<texture name="GnollDie5" load="F" file="../images/gnol/cgnolm23.png"/>
+			<texture name="GnollDie6" load="F" file="../images/gnol/cgnolm24.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="GnollAttackD01" load="F" file="../images/gnol/cgnolm01.png"/>
+			<texture name="GnollAttackD02" load="F" file="../images/gnol/cgnolm02.png"/>
+			<texture name="GnollAttackD03" load="F" file="../images/gnol/cgnolm14.png"/>
+			<texture name="GnollAttackD04" load="F" file="../images/gnol/cgnolm15.png"/>
+			<texture name="GnollAttackD06" load="F" file="../images/gnol/cgnolm16.png"/>
+			<texture name="GnollAttackD07" load="F" file="../images/gnol/cgnolm17.png"/>
+			<texture name="GnollAttackD08" load="F" file="../images/gnol/cgnolm18.png"/>
+			<texture name="GnollAttackD09" load="F" file="../images/gnol/cgnolm08.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="GnollAttackU01" load="F" file="../images/gnol/cgnolm01.png"/>
+			<texture name="GnollAttackU02" load="F" file="../images/gnol/cgnolm02.png"/>
+			<texture name="GnollAttackU03" load="F" file="../images/gnol/cgnolm09.png"/>
+			<texture name="GnollAttackU04" load="F" file="../images/gnol/cgnolm10.png"/>
+			<texture name="GnollAttackU05" load="F" file="../images/gnol/cgnolm11.png"/>
+			<texture name="GnollAttackU06" load="F" file="../images/gnol/cgnolm12.png"/>
+			<texture name="GnollAttackU07" load="F" file="../images/gnol/cgnolm13.png"/>
+			<texture name="GnollAttackU08" load="F" file="../images/gnol/cgnolm08.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="GnollDefend01" load="F" file="../images/gnol/cgnolm25.png"/>
+			<texture name="GnollDefend02" load="F" file="../images/gnol/cgnolm26.png"/>
+			<texture name="GnollDefend03" load="F" file="../images/gnol/cgnolm27.png"/>
+			<texture name="GnollDefend04" load="F" file="../images/gnol/cgnolm28.png"/>
+			<texture name="GnollDefend05" load="F" file="../images/gnol/cgnolm28.png"/>
+			<texture name="GnollDefend06" load="F" file="../images/gnol/cgnolm28.png"/>
+			<texture name="GnollDefend07" load="F" file="../images/gnol/cgnolm28.png"/>
+			<texture name="GnollDefend08" load="F" file="../images/gnol/cgnolm28.png"/>
+			<texture name="GnollDefend09" load="F" file="../images/gnol/cgnolm27.png"/>
+			<texture name="GnollDefend10" load="F" file="../images/gnol/cgnolm26.png"/>
+			<texture name="GnollDefend11" load="F" file="../images/gnol/cgnolm25.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Bazyliszek">
+		<Animation name="4">
+			<texture name="BasMove3" load="F" file="../images/bazyliszek/cgbasi51.png"/>
+			<texture name="BasMove4" load="F" file="../images/bazyliszek/cgbasi52.png"/>
+			<texture name="BasMove5" load="F" file="../images/bazyliszek/cgbasi53.png"/>
+			<texture name="BasMove6" load="F" file="../images/bazyliszek/cgbasi54.png"/>
+			<texture name="BasMove7" load="F" file="../images/bazyliszek/cgbasi55.png"/>
+			<texture name="BasMove8" load="F" file="../images/bazyliszek/cgbasi56.png"/>
+			<texture name="BasMove9" load="F" file="../images/bazyliszek/cgbasi57.png"/>
+			<texture name="BasMove10" load="F" file="../images/bazyliszek/cgbasi58.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="BasIdle2" load="F" file="../images/bazyliszek/cgbasi41.png"/>
+			<texture name="BasIdle3" load="F" file="../images/bazyliszek/cgbasi42.png"/>
+			<texture name="BasIdle4" load="F" file="../images/bazyliszek/cgbasi43.png"/>
+			<texture name="BasIdle5" load="F" file="../images/bazyliszek/cgbasi44.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="BasStand" load="F" file="../images/bazyliszek/cgbasi69.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="BasActive" load="T" file="../images/bazyliszek/cgbasi69.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="BasTurnLeft1" load="F" file="../images/bazyliszek/cgbasi67.png"/>
+			<texture name="BasTurnLeft2" load="F" file="../images/bazyliszek/cgbasi68.png"/>
+			<texture name="BasTurnRight1" load="F" flip="T" file="../images/bazyliszek/cgbasi68.png"/>
+			<texture name="BasTurnRight2" load="F" flip="T" file="../images/bazyliszek/cgbasi67.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="BasAttack1" load="F" file="../images/bazyliszek/cgbasi01.png"/>
+			<texture name="BasAttack2" load="F" file="../images/bazyliszek/cgbasi02.png"/>
+			<texture name="BasAttack3" load="F" file="../images/bazyliszek/cgbasi03.png"/>
+			<texture name="BasAttack4" load="F" file="../images/bazyliszek/cgbasi04.png"/>
+			<texture name="BasAttack5" load="F" file="../images/bazyliszek/cgbasi05.png"/>
+			<texture name="BasAttack6" load="F" file="../images/bazyliszek/cgbasi06.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="BasGetHit1" load="F" file="../images/bazyliszek/cgbasi61.png"/>
+			<texture name="BasGetHit2" load="F" file="../images/bazyliszek/cgbasi62.png"/>
+			<texture name="BasGetHit3" load="F" file="../images/bazyliszek/cgbasi63.png"/>
+			<texture name="BasGetHit4" load="F" file="../images/bazyliszek/cgbasi64.png"/>
+			<texture name="BasGetHit5" load="F" file="../images/bazyliszek/cgbasi65.png"/>
+			<texture name="BasGetHit6" load="F" file="../images/bazyliszek/cgbasi66.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="BasDie1" load="F" file="../images/bazyliszek/cgbasi31.png"/>
+			<texture name="BasDie2" load="F" file="../images/bazyliszek/cgbasi32.png"/>
+			<texture name="BasDie3" load="F" file="../images/bazyliszek/cgbasi33.png"/>
+			<texture name="BasDie4" load="F" file="../images/bazyliszek/cgbasi34.png"/>
+			<texture name="BasDie5" load="F" file="../images/bazyliszek/cgbasi35.png"/>
+			<texture name="BasDie6" load="F" file="../images/bazyliszek/cgbasi36.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="BasAttackD01" load="F" file="../images/bazyliszek/cgbasi13.png"/>
+			<texture name="BasAttackD02" load="F" file="../images/bazyliszek/cgbasi14.png"/>
+			<texture name="BasAttackD03" load="F" file="../images/bazyliszek/cgbasi15.png"/>
+			<texture name="BasAttackD04" load="F" file="../images/bazyliszek/cgbasi16.png"/>
+			<texture name="BasAttackD06" load="F" file="../images/bazyliszek/cgbasi17.png"/>
+			<texture name="BasAttackD07" load="F" file="../images/bazyliszek/cgbasi18.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="BasAttackU01" load="F" file="../images/bazyliszek/cgbasi07.png"/>
+			<texture name="BasAttackU02" load="F" file="../images/bazyliszek/cgbasi08.png"/>
+			<texture name="BasAttackU03" load="F" file="../images/bazyliszek/cgbasi09.png"/>
+			<texture name="BasAttackU04" load="F" file="../images/bazyliszek/cgbasi10.png"/>
+			<texture name="BasAttackU05" load="F" file="../images/bazyliszek/cgbasi11.png"/>
+			<texture name="BasAttackU06" load="F" file="../images/bazyliszek/cgbasi12.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="BasDefend01" load="F" file="../images/bazyliszek/cgbasi37.png"/>
+			<texture name="BasDefend02" load="F" file="../images/bazyliszek/cgbasi38.png"/>
+			<texture name="BasDefend03" load="F" file="../images/bazyliszek/cgbasi39.png"/>
+			<texture name="BasDefend04" load="F" file="../images/bazyliszek/cgbasi40.png"/>
+			<texture name="BasDefend05" load="F" file="../images/bazyliszek/cgbasi40.png"/>
+			<texture name="BasDefend06" load="F" file="../images/bazyliszek/cgbasi40.png"/>
+			<texture name="BasDefend07" load="F" file="../images/bazyliszek/cgbasi40.png"/>
+			<texture name="BasDefend08" load="F" file="../images/bazyliszek/cgbasi40.png"/>
+			<texture name="BasDefend09" load="F" file="../images/bazyliszek/cgbasi39.png"/>
+			<texture name="BasDefend10" load="F" file="../images/bazyliszek/cgbasi38.png"/>
+			<texture name="BasDefend11" load="F" file="../images/bazyliszek/cgbasi37.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Reptilion">
+		<Animation name="4">
+			<texture name="ReptMove4" load="F" file="../images/jaszczur/cpliza57.png"/>
+			<texture name="ReptMove5" load="F" file="../images/jaszczur/cpliza58.png"/>
+			<texture name="ReptMove6" load="F" file="../images/jaszczur/cpliza59.png"/>
+			<texture name="ReptMove7" load="F" file="../images/jaszczur/cpliza60.png"/>
+			<texture name="ReptMove8" load="F" file="../images/jaszczur/cpliza61.png"/>
+			<texture name="ReptMove9" load="F" file="../images/jaszczur/cpliza62.png"/>
+			<texture name="ReptMove10" load="F" file="../images/jaszczur/cpliza63.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="ReptIdle1" load="F" file="../images/jaszczur/cpliza47.png"/>
+			<texture name="ReptIdle2" load="F" file="../images/jaszczur/cpliza48.png"/>
+			<texture name="ReptIdle3" load="F" file="../images/jaszczur/cpliza49.png"/>
+			<texture name="ReptIdle3" load="F" file="../images/jaszczur/cpliza50.png"/>
+			<texture name="ReptIdle3" load="F" file="../images/jaszczur/cpliza50.png"/>
+			<texture name="ReptIdle3" load="F" file="../images/jaszczur/cpliza50.png"/>
+			<texture name="ReptIdle3" load="F" file="../images/jaszczur/cpliza50.png"/>
+			<texture name="ReptIdle4" load="F" file="../images/jaszczur/cpliza49.png"/>
+			<texture name="ReptIdle5" load="F" file="../images/jaszczur/cpliza48.png"/>
+			<texture name="ReptIdle6" load="F" file="../images/jaszczur/cpliza47.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="ReptStand" load="F" file="../images/jaszczur/cpliza75.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="ReptActive" load="T" file="../images/jaszczur/cpliza75.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="ReptTurnLeft1" load="F" file="../images/jaszczur/cpliza73.png"/>
+			<texture name="ReptTurnLeft2" load="F" file="../images/jaszczur/cpliza74.png"/>
+			<texture name="ReptTurnRight1" load="F" flip="T" file="../images/jaszczur/cpliza74.png"/>
+			<texture name="ReptTurnRight2" load="F" flip="T" file="../images/jaszczur/cpliza73.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="ReptAttack1" load="F" file="../images/jaszczur/cpliza19.png"/>
+			<texture name="ReptAttack2" load="F" file="../images/jaszczur/cpliza21.png"/>
+			<texture name="ReptAttack3" load="F" file="../images/jaszczur/cpliza22.png"/>
+			<texture name="ReptAttack4" load="F" file="../images/jaszczur/cpliza23.png"/>
+			<texture name="ReptAttack5" load="F" file="../images/jaszczur/cpliza24.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="ReptGetHit1" load="F" file="../images/jaszczur/cpliza67.png"/>
+			<texture name="ReptGetHit2" load="F" file="../images/jaszczur/cpliza68.png"/>
+			<texture name="ReptGetHit3" load="F" file="../images/jaszczur/cpliza69.png"/>
+			<texture name="ReptGetHit4" load="F" file="../images/jaszczur/cpliza70.png"/>
+			<texture name="ReptGetHit5" load="F" file="../images/jaszczur/cpliza71.png"/>
+			<texture name="ReptGetHit5" load="F" file="../images/jaszczur/cpliza72.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="ReptDie1" load="F" file="../images/jaszczur/cpliza67.png"/>
+			<texture name="ReptDie2" load="F" file="../images/jaszczur/cpliza68.png"/>
+			<texture name="ReptDie3" load="F" file="../images/jaszczur/cpliza37.png"/>
+			<texture name="ReptDie4" load="F" file="../images/jaszczur/cpliza38.png"/>
+			<texture name="ReptDie5" load="F" file="../images/jaszczur/cpliza39.png"/>
+			<texture name="ReptDie6" load="F" file="../images/jaszczur/cpliza40.png"/>
+			<texture name="ReptDie7" load="F" file="../images/jaszczur/cpliza41.png"/>
+			<texture name="ReptDie8" load="F" file="../images/jaszczur/cpliza42.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="ReptAttackD01" load="F" file="../images/jaszczur/cpliza31.png"/>
+			<texture name="ReptAttackD02" load="F" file="../images/jaszczur/cpliza32.png"/>
+			<texture name="ReptAttackD03" load="F" file="../images/jaszczur/cpliza33.png"/>
+			<texture name="ReptAttackD04" load="F" file="../images/jaszczur/cpliza34.png"/>
+			<texture name="ReptAttackD06" load="F" file="../images/jaszczur/cpliza35.png"/>
+			<texture name="ReptAttackD07" load="F" file="../images/jaszczur/cpliza36.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="ReptAttackU01" load="F" file="../images/jaszczur/cpliza25.png"/>
+			<texture name="ReptAttackU02" load="F" file="../images/jaszczur/cpliza26.png"/>
+			<texture name="ReptAttackU03" load="F" file="../images/jaszczur/cpliza27.png"/>
+			<texture name="ReptAttackU04" load="F" file="../images/jaszczur/cpliza28.png"/>
+			<texture name="ReptAttackU05" load="F" file="../images/jaszczur/cpliza29.png"/>
+			<texture name="ReptAttackU06" load="F" file="../images/jaszczur/cpliza30.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="ReptDefend01" load="F" file="../images/jaszczur/cpliza43.png"/>
+			<texture name="ReptDefend02" load="F" file="../images/jaszczur/cpliza44.png"/>
+			<texture name="ReptDefend03" load="F" file="../images/jaszczur/cpliza45.png"/>
+			<texture name="ReptDefend04" load="F" file="../images/jaszczur/cpliza46.png"/>
+			<texture name="ReptDefend05" load="F" file="../images/jaszczur/cpliza46.png"/>
+			<texture name="ReptDefend06" load="F" file="../images/jaszczur/cpliza46.png"/>
+			<texture name="ReptDefend07" load="F" file="../images/jaszczur/cpliza46.png"/>
+			<texture name="ReptDefend08" load="F" file="../images/jaszczur/cpliza45.png"/>
+			<texture name="ReptDefend09" load="F" file="../images/jaszczur/cpliza44.png"/>
+			<texture name="ReptDefend10" load="F" file="../images/jaszczur/cpliza43.png"/>
+		</Animation>
+		<Animation name="SHOOT">
+			<texture name="ReptShootS01" load="F" file="../images/jaszczur/cpliza01.png"/>
+			<texture name="ReptShootS02" load="F" file="../images/jaszczur/cpliza02.png"/>
+			<texture name="ReptShootS03" load="F" file="../images/jaszczur/cpliza03.png"/>
+			<texture name="ReptShootS04" load="F" file="../images/jaszczur/cpliza04.png"/>
+			<texture name="ReptShootS05" load="F" file="../images/jaszczur/cpliza04.png"/>
+			<texture name="ReptShootS06" load="F" file="../images/jaszczur/cpliza04.png"/>
+			<texture name="ReptShootS07" load="F" file="../images/jaszczur/cpliza04.png"/>
+			<texture name="ReptShootS08" load="F" file="../images/jaszczur/cpliza04.png"/>
+			<texture name="ReptShootS07" load="F" file="../images/jaszczur/cpliza05.png"/>
+			<texture name="ReptShootS08" load="F" file="../images/jaszczur/cpliza06.png"/>
+		</Animation>
+		<Animation name="SHOOT_UP">
+			<texture name="ReptShootU01" load="F" file="../images/jaszczur/cpliza07.png"/>
+			<texture name="ReptShootU02" load="F" file="../images/jaszczur/cpliza08.png"/>
+			<texture name="ReptShootU03" load="F" file="../images/jaszczur/cpliza09.png"/>
+			<texture name="ReptShootU04" load="F" file="../images/jaszczur/cpliza10.png"/>
+			<texture name="ReptShootU05" load="F" file="../images/jaszczur/cpliza10.png"/>
+			<texture name="ReptShootU06" load="F" file="../images/jaszczur/cpliza10.png"/>
+			<texture name="ReptShootU07" load="F" file="../images/jaszczur/cpliza10.png"/>
+			<texture name="ReptShootU08" load="F" file="../images/jaszczur/cpliza10.png"/>
+			<texture name="ReptShootU07" load="F" file="../images/jaszczur/cpliza11.png"/>
+			<texture name="ReptShootU08" load="F" file="../images/jaszczur/cpliza12.png"/>
+		</Animation>
+		<Animation name="SHOOT_DOWN">
+			<texture name="ReptShootD01" load="F" file="../images/jaszczur/cpliza13.png"/>
+			<texture name="ReptShootD02" load="F" file="../images/jaszczur/cpliza14.png"/>
+			<texture name="ReptShootD03" load="F" file="../images/jaszczur/cpliza15.png"/>
+			<texture name="ReptShootD04" load="F" file="../images/jaszczur/cpliza16.png"/>
+			<texture name="ReptShootD05" load="F" file="../images/jaszczur/cpliza16.png"/>
+			<texture name="ReptShootD06" load="F" file="../images/jaszczur/cpliza16.png"/>
+			<texture name="ReptShootD07" load="F" file="../images/jaszczur/cpliza16.png"/>
+			<texture name="ReptShootD08" load="F" file="../images/jaszczur/cpliza16.png"/>
+			<texture name="ReptShootD07" load="F" file="../images/jaszczur/cpliza17.png"/>
+			<texture name="ReptShootD08" load="F" file="../images/jaszczur/cpliza18.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Demigorgona">
+		<Animation name="4">
+			<texture name="DemigMove1" load="F" file="../images/demigorgona/Ccgorg10.png"/>
+			<texture name="DemigMove2" load="F" file="../images/demigorgona/Ccgorg11.png"/>
+			<texture name="DemigMove3" load="F" file="../images/demigorgona/Ccgorg12.png"/>
+			<texture name="DemigMove4" load="F" file="../images/demigorgona/Ccgorg13.png"/>
+			<texture name="DemigMove5" load="F" file="../images/demigorgona/Ccgorg14.png"/>
+			<texture name="DemigMove6" load="F" file="../images/demigorgona/Ccgorg15.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="DemigIdle1" load="F" file="../images/demigorgona/Ccgorg06.png"/>
+			<texture name="DemigIdle2" load="F" file="../images/demigorgona/Ccgorg07.png"/>
+			<texture name="DemigIdle3" load="F" file="../images/demigorgona/Ccgorg08.png"/>
+			<texture name="DemigIdle4" load="F" file="../images/demigorgona/Ccgorg09.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="DemigStand" load="F" file="../images/demigorgona/Ccgorg01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="DemigActive" load="T" file="../images/demigorgona/Ccgorg01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="DemigTurnLeft1" load="F" file="../images/demigorgona/Ccgorg16.png"/>
+			<texture name="DemigTurnLeft1" load="F" file="../images/demigorgona/Ccgorg17.png"/>
+			<texture name="DemigTurnLeft1" load="F" file="../images/demigorgona/Ccgorg18.png"/>
+			<texture name="DemigTurnRight1" load="F" flip="T" file="../images/demigorgona/Ccgorg18.png"/>
+			<texture name="DemigTurnRight1" load="F" flip="T" file="../images/demigorgona/Ccgorg17.png"/>
+			<texture name="DemigTurnRight1" load="F" flip="T" file="../images/demigorgona/Ccgorg16.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="DemigAttack2" load="F" file="../images/demigorgona/Ccgorg29.png"/>
+			<texture name="DemigAttack3" load="F" file="../images/demigorgona/Ccgorg30.png"/>
+			<texture name="DemigAttack4" load="F" file="../images/demigorgona/Ccgorg31.png"/>
+			<texture name="DemigAttack5" load="F" file="../images/demigorgona/Ccgorg32.png"/>
+			<texture name="DemigAttack6" load="F" file="../images/demigorgona/Ccgorg33.png"/>
+			<texture name="DemigAttack6" load="F" file="../images/demigorgona/Ccgorg34.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="DemigGetHit1" load="F" file="../images/demigorgona/Ccgorg19.png"/>
+			<texture name="DemigGetHit2" load="F" file="../images/demigorgona/Ccgorg20.png"/>
+			<texture name="DemigGetHit3" load="F" file="../images/demigorgona/Ccgorg21.png"/>
+			<texture name="DemigGetHit4" load="F" file="../images/demigorgona/Ccgorg22.png"/>
+			<texture name="DemigGetHit5" load="F" file="../images/demigorgona/Ccgorg23.png"/>
+			<texture name="DemigGetHit6" load="F" file="../images/demigorgona/Ccgorg24.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="DemigDie2" load="F" file="../images/demigorgona/Ccgorg48.png"/>
+			<texture name="DemigDie3" load="F" file="../images/demigorgona/Ccgorg49.png"/>
+			<texture name="DemigDie4" load="F" file="../images/demigorgona/Ccgorg50.png"/>
+			<texture name="DemigDie3" load="F" file="../images/demigorgona/Ccgorg51.png"/>
+			<texture name="DemigDie4" load="F" file="../images/demigorgona/Ccgorg52.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="DemigAttackD01" load="F" file="../images/demigorgona/Ccgorg42.png"/>
+			<texture name="DemigAttackD02" load="F" file="../images/demigorgona/Ccgorg43.png"/>
+			<texture name="DemigAttackD03" load="F" file="../images/demigorgona/Ccgorg44.png"/>
+			<texture name="DemigAttackD04" load="F" file="../images/demigorgona/Ccgorg45.png"/>
+			<texture name="DemigAttackD06" load="F" file="../images/demigorgona/Ccgorg46.png"/>
+			<texture name="DemigAttackD07" load="F" file="../images/demigorgona/Ccgorg47.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="DemigAttackU01" load="F" file="../images/demigorgona/Ccgorg29.png"/>
+			<texture name="DemigAttackU02" load="F" file="../images/demigorgona/Ccgorg30.png"/>
+			<texture name="DemigAttackU03" load="F" file="../images/demigorgona/Ccgorg31.png"/>
+			<texture name="DemigAttackU04" load="F" file="../images/demigorgona/Ccgorg32.png"/>
+			<texture name="DemigAttackU05" load="F" file="../images/demigorgona/Ccgorg33.png"/>
+			<texture name="DemigAttackU06" load="F" file="../images/demigorgona/Ccgorg34.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="DemigDefend01" load="F" file="../images/demigorgona/Ccgorg25.png"/>
+			<texture name="DemigDefend02" load="F" file="../images/demigorgona/Ccgorg26.png"/>
+			<texture name="DemigDefend03" load="F" file="../images/demigorgona/Ccgorg27.png"/>
+			<texture name="DemigDefend04" load="F" file="../images/demigorgona/Ccgorg28.png"/>
+			<texture name="DemigDefend05" load="F" file="../images/demigorgona/Ccgorg28.png"/>
+			<texture name="DemigDefend06" load="F" file="../images/demigorgona/Ccgorg28.png"/>
+			<texture name="DemigDefend07" load="F" file="../images/demigorgona/Ccgorg28.png"/>
+			<texture name="DemigDefend08" load="F" file="../images/demigorgona/Ccgorg28.png"/>
+			<texture name="DemigDefend09" load="F" file="../images/demigorgona/Ccgorg28.png"/>
+			<texture name="DemigDefend10" load="F" file="../images/demigorgona/Ccgorg27.png"/>
+			<texture name="DemigDefend11" load="F" file="../images/demigorgona/Ccgorg26.png"/>
+			<texture name="DemigDefend12" load="F" file="../images/demigorgona/Ccgorg25.png"/>
+		</Animation>
+	</AnimationSet>
+	<AnimationSet name="Wiwerna">
+		<Animation name="11">
+			<texture name="VivStartMove1" load="F" file="../images/wiwerna/CWYVMN07.png"/>
+			<texture name="VivStartMove2" load="F" file="../images/wiwerna/CWYVMN08.png"/>
+			<texture name="VivStartMove3" load="F" file="../images/wiwerna/CWYVMN09.png"/>
+		</Animation>	
+		<Animation name="4">
+			<texture name="VivMove4" load="F" file="../images/wiwerna/CWYVMN12.png"/>
+			<texture name="VivMove5" load="F" file="../images/wiwerna/CWYVMN10.png"/>
+			<texture name="VivMove6" load="F" file="../images/wiwerna/CWYVMN11.png"/>
+			<texture name="VivMove7" load="F" file="../images/wiwerna/CWYVMN10.png"/>
+			<texture name="VivMove3" load="F" file="../images/wiwerna/CWYVMN12.png"/>
+			<texture name="VivMove4" load="F" file="../images/wiwerna/CWYVMN13.png"/>
+		</Animation>	
+		<Animation name="12">
+			<texture name="VivStopMove3" load="F" file="../images/wiwerna/CWYVMN09.png"/>
+			<texture name="VivStopMove3" load="F" file="../images/wiwerna/CWYVMN14.png"/>
+			<texture name="VivStopMove3" load="F" file="../images/wiwerna/CWYVMN15.png"/>
+			<texture name="VivStopMove5" load="F" file="../images/wiwerna/CWYVMN16.png"/>
+			<texture name="VivStopMove6" load="F" file="../images/wiwerna/CWYVMN17.png"/>
+		</Animation>
+		<Animation name="2">
+			<texture name="VivIdle1" load="F" file="../images/wiwerna/CWYVMN04.png"/>
+			<texture name="VivIdle2" load="F" file="../images/wiwerna/CWYVMN05.png"/>
+			<texture name="VivIdle3" load="F" file="../images/wiwerna/CWYVMN06.png"/>
+			<texture name="VivIdle4" load="F" file="../images/wiwerna/CWYVMN06.png"/>
+			<texture name="VivIdle5" load="F" file="../images/wiwerna/CWYVMN05.png"/>
+			<texture name="VivIdle6" load="F" file="../images/wiwerna/CWYVMN04.png"/>
+		</Animation>
+		<Animation name="1" frameT="5">
+			<texture name="VivStand" load="F" file="../images/wiwerna/CWYVMN01.png"/>
+		</Animation>
+		<Animation name="3">
+			<texture name="VivActive" load="T" file="../images/wiwerna/CWYVMN01.png"/>
+		</Animation>
+		<Animation name="6">
+			<texture name="VivTurnLeft1" load="F" file="../images/wiwerna/CWYVMN18.png"/>
+			<texture name="VivTurnLeft2" load="F" file="../images/wiwerna/CWYVMN19.png"/>
+			<texture name="VivTurnRight1" load="F" flip="T" file="../images/wiwerna/CWYVMN19.png"/>
+			<texture name="VivTurnRight2" load="F" flip="T" file="../images/wiwerna/CWYVMN18.png"/>
+		</Animation>
+		<Animation name="8">
+			<texture name="VivAttack1" load="F" file="../images/wiwerna/CWYVMN32.png"/>
+			<texture name="VivAttack2" load="F" file="../images/wiwerna/CWYVMN33.png"/>
+			<texture name="VivAttack3" load="F" file="../images/wiwerna/CWYVMN34.png"/>
+			<texture name="VivAttack4" load="F" file="../images/wiwerna/CWYVMN35.png"/>
+			<texture name="VivAttack5" load="F" file="../images/wiwerna/CWYVMN36.png"/>
+			<texture name="VivAttack6" load="F" file="../images/wiwerna/CWYVMN37.png"/>
+		</Animation>
+		<Animation name="9">
+			<texture name="VivGetHit3" load="F" file="../images/wiwerna/CWYVMN44.png"/>
+			<texture name="VivGetHit4" load="F" file="../images/wiwerna/CWYVMN45.png"/>
+			<texture name="VivGetHit1" load="F" file="../images/wiwerna/CWYVMN46.png"/>
+			<texture name="VivGetHit2" load="F" file="../images/wiwerna/CWYVMN47.png"/>
+			<texture name="VivGetHit3" load="F" file="../images/wiwerna/CWYVMN48.png"/>
+			<texture name="VivGetHit4" load="F" file="../images/wiwerna/CWYVMN49.png"/>
+			<texture name="VivGetHit5" load="F" file="../images/wiwerna/CWYVMN44.png"/>
+		</Animation>
+		<Animation name="10">
+			<texture name="VivDie1" load="F" file="../images/wiwerna/CWYVMN50.png"/>
+			<texture name="VivDie2" load="F" file="../images/wiwerna/CWYVMN51.png"/>
+			<texture name="VivDie3" load="F" file="../images/wiwerna/CWYVMN52.png"/>
+			<texture name="VivDie4" load="F" file="../images/wiwerna/CWYVMN53.png"/>
+			<texture name="VivDie5" load="F" file="../images/wiwerna/CWYVMN54.png"/>
+			<texture name="VivDie6" load="F" file="../images/wiwerna/CWYVMN55.png"/>
+			<texture name="VivDie6" load="F" file="../images/wiwerna/CWYVMN56.png"/>
+		</Animation>
+		<Animation name="ATTACK_DOWN" sound="">
+			<texture name="VivAttackD01" load="F" file="../images/wiwerna/CWYVMN38.png"/>
+			<texture name="VivAttackD02" load="F" file="../images/wiwerna/CWYVMN39.png"/>
+			<texture name="VivAttackD03" load="F" file="../images/wiwerna/CWYVMN40.png"/>
+			<texture name="VivAttackD04" load="F" file="../images/wiwerna/CWYVMN41.png"/>
+			<texture name="VivAttackD06" load="F" file="../images/wiwerna/CWYVMN42.png"/>
+			<texture name="VivAttackD07" load="F" file="../images/wiwerna/CWYVMN43.png"/>
+		</Animation>
+		<Animation name="ATTACK_UP" sound="">
+			<texture name="VivAttackU01" load="F" file="../images/wiwerna/CWYVMN26.png"/>
+			<texture name="VivAttackU02" load="F" file="../images/wiwerna/CWYVMN27.png"/>
+			<texture name="VivAttackU03" load="F" file="../images/wiwerna/CWYVMN28.png"/>
+			<texture name="VivAttackU04" load="F" file="../images/wiwerna/CWYVMN29.png"/>
+			<texture name="VivAttackU05" load="F" file="../images/wiwerna/CWYVMN30.png"/>
+			<texture name="VivAttackU06" load="F" file="../images/wiwerna/CWYVMN31.png"/>
+		</Animation>
+		<Animation name="DEFEND" sound="">
+			<texture name="VivDefend01" load="F" file="../images/wiwerna/CWYVMN20.png"/>
+			<texture name="VivDefend02" load="F" file="../images/wiwerna/CWYVMN21.png"/>
+			<texture name="VivDefend03" load="F" file="../images/wiwerna/CWYVMN22.png"/>
+			<texture name="VivDefend04" load="F" file="../images/wiwerna/CWYVMN23.png"/>
+			<texture name="VivDefend05" load="F" file="../images/wiwerna/CWYVMN24.png"/>
+			<texture name="VivDefend06" load="F" file="../images/wiwerna/CWYVMN25.png"/>
+		</Animation>
+	</AnimationSet>
+</Animations>

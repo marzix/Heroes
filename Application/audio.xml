@@ -1,0 +1,9 @@
+<Audio>
+	<sound name="MAINMENU" file="../Audio/MAINMENU.MP3" looped="T" />
+	<sound name="COMBAT1" file="../Audio/COMBAT01.mp3" looped="F" />
+	<sound name="COMBAT2" file="../Audio/COMBAT02.mp3" looped="F" />
+	<sound name="COMBAT3" file="../Audio/COMBAT03.mp3" looped="F" />
+	<sound name="COMBAT4" file="../Audio/COMBAT04.mp3" looped="F" />
+	<sound name="Defend_Castle" file="../Audio/Defend_Castle.MP3" looped="T" />
+	<sound name="Button" file="../Audio/BUTTON.wav" looped="F" />
+</Audio>
